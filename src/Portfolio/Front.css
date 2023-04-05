@@ -1,0 +1,68 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#front{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background-size: cover;
+    background-image: url('../Portfolioimage/niyi2.jpeg');
+    position: relative;
+}
+.overlay{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    background-color: black;
+    opacity: 0.8;
+    padding:35% 30% 0% 30%;
+}
+.head{
+    width: 100%;
+}
+.overlay-text{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.overlay-btn{
+    padding: 20px;
+}
+h1{
+    color: rgb(255, 255, 2);
+    font-weight: bold;
+}
+.front-text{
+    height: auto;
+    font-size: 20px;
+    line-height: 30px;
+    color: white;
+}
+.hire{
+    background-color: yellow;
+    width: 400px;
+    margin-left: 10%;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px 30px;
+    border: 2px solid yellow;
+    border-radius: 5px;
+}
+.hire:hover{
+        background-color: transparent;
+        color: white;
+        transition: 0.9s;
+}
+@media screen and (max-width:950px) {
+    .overlay{
+        width: 100%;
+        padding:65% 5% 0% 5%;
+    }
+    .hire{
+        margin-left: 30%;
+        width: 100px;
+    }
+}

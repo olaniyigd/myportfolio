@@ -3,25 +3,26 @@
     padding: 0;
     box-sizing: border-box;
 }
-.about-head{
+#about-head{
     width: 100%;
 }
 .about-title{
     color: #030372;
-    border-bottom: 5px solid #030372;
-    width: 5%;
-    margin-left: 20px;
-    margin-bottom: 10px;
+    width: 100%;
+    padding: 10px 20px;
 }
 .abot-title{
     color: #030372;
     width: 100%;
-    font-size:25px;
-    font-weight:bold;
+    font-size:27px;
+    font-weight:800;
     margin-left: 20px;
     margin-bottom: 10px;   
 }
 .about-text{
+    width: 100%;
+    font-size: 23px;
+    line-height: 35px;
     padding: 1px 20px;
     text-align: justify;
 }
@@ -43,36 +44,32 @@
     border-radius:5%;
 }
 .abt-text{
+    font-size: 23px;
+    line-height: 35px;
     text-align: justify;
     padding: 0px 20px;
 }
-.info{
+.inf{
+    font-size: 20px;
+    line-height: 35px;
     width: 100%;
     display: flex;
     padding: 20px 20px;
 }
-.info-left, .info-right{
+.inf-left, .inf-right{
     width: 100%;
     display: flex;
     flex-direction: column;
     gap: 15px;
 }
-.one{
+.two{
     display: flex;
-    color: #666565;
-}
-.ic-text{
+    width: 100%;
     color: black;
 }
-.ic{
-    color: #030372;
-}
+
 
 @media screen and (max-width:950px){
-    .info{
-        flex-direction: column;
-        gap: 25px;
-    }
     .about{
         flex-direction: column;
     }
@@ -80,10 +77,13 @@
     color: #030372;
     width: 100%;
     font-size:20px;
-    margin-left: 20px;
-    margin-bottom: 10px;   
+    font-weight: 900;   
     }
-    .info-left, .info-right{
+    .inf{
+        flex-direction: column;
+        gap: 25px;
+    }
+    .inf-left, .inf-right{
     gap: 25px;
 }
 }

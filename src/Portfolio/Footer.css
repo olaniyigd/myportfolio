@@ -14,10 +14,11 @@
     margin-bottom: 10px;
 }
 .contacts{
+    width: 100%;
     display: flex;
     justify-content: center;
-    gap: 20px;
-    padding-left: 20px;
+    gap: 50px;
+    padding: 0px 20px;
 }
 .left-contact{
     width: 100%;
@@ -29,6 +30,7 @@
 .right-contact{
     width: 100%;
     display: flex;
+    padding: 0px 20px;
     flex-direction: column;
     background-color: #e9e8e8;
 }
@@ -64,7 +66,7 @@ form{
     padding: 10px 20px;
 }
 .head{
-    font-size: 15px;
+    font-size: 20px;
 }
 .nams{
     width: 100%;
@@ -81,6 +83,7 @@ form{
 }
 #yourname, #mail{
     height: 25px;
+    font-size: 20px;
     padding: 15px;
     outline-color: #c9c6c6;
 }
@@ -90,7 +93,7 @@ form{
     padding: 10px 10px;
     outline-color: #c9c6c6;
 }
-.btn{
+.btnn{
     width: 100%;
     display: flex;
     align-items: center;
@@ -98,9 +101,10 @@ form{
     padding: 10px 0px;   
 }
 .butn{
-    padding: 10px 20px;
+    padding: 15px 20px;
     background-color: #070727;
     color: white;
+    font-size: 20px;
     cursor: pointer;
     border: 2px solid #070727;
     border-radius: 5px;
@@ -116,11 +120,23 @@ a{
     width:470px;
     height:340px;
 }
+.locate{
+    font-size: 22px;
+}
+.mil, .nu{
+    font-size: 20px;
+}
 @media screen and (max-width:950px){
     .contacts{
         flex-direction: column;
         padding-left: 0;
         padding:20px 35px;
+    }
+    .locate{
+        font-size: 20px;
+    }
+    .mil, .nu{
+        font-size: 17px;
     }
     .namail{
         flex-direction: column;

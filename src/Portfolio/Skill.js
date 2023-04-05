@@ -1,12 +1,12 @@
 import "./Skill.css";
 export default function Skill (){
     return(
-            <div className="skill">
+            <div id="skill">
                 <h1 className="skill-title">Skills</h1>
                 <div className="skills">
                 <div className="skill-left">
                     <div className="skill-html">
-                    <h3>HTML</h3>
+                    <p className="heading">HTML</p>
                     <p className="skit">98%</p>
                     </div>
                     <div className="bak">
@@ -14,7 +14,7 @@ export default function Skill (){
                         </div>
                     </div>
                     <div className="skill-css">
-                    <h3>CSS</h3>
+                    <p className="heading">CSS</p>
                     <p className="skit">95%</p>
                     </div>
                     <div className="bak">
@@ -22,7 +22,7 @@ export default function Skill (){
                         </div>
                     </div>
                     <div className="skill-java">
-                    <h3>JAVASCRIPT</h3>
+                    <p className="heading">JAVASCRIPT</p>
                     <p className="skit">70%</p>
                     </div>
                     <div className="bak">
@@ -30,7 +30,7 @@ export default function Skill (){
                         </div>
                     </div>
                     <div className="skill-boot">
-                    <h3>BOOTSTRAP</h3>
+                    <p className="heading">BOOTSTRAP</p>
                     <p className="skit">55%</p>
                     </div>
                     <div className="bak">
@@ -40,7 +40,7 @@ export default function Skill (){
                 </div>
                 <div className="skill-right">
                     <div className="skill-react">
-                    <h3>REACTJS</h3>
+                    <p className="heading">REACTJS</p>
                     <p className="skit">60%</p>
                     </div>
                     <div className="bak">
@@ -48,7 +48,7 @@ export default function Skill (){
                         </div>
                     </div>
                     <div className="skill-canva">
-                    <h3>CANVA</h3>
+                    <p className="heading">CANVA</p>
                     <p className="skit">98%</p>
                     </div>
                     <div className="bak">
@@ -56,7 +56,7 @@ export default function Skill (){
                         </div>
                     </div>
                     <div className="skill-com">
-                    <h3>GOOD COMMUNICATION</h3>
+                    <p className="heading">GOOD COMMUNICATION</p>
                     <p className="skit">90%</p>
                     </div>
                     <div className="bak">
@@ -64,7 +64,7 @@ export default function Skill (){
                         </div>
                     </div>
                     <div className="skill-play">
-                    <h3>GOOD TEAM PLAYER</h3>
+                    <p className="heading">GOOD TEAM PLAYER</p>
                     <p className="skit">98%</p>
                     </div>
                     <div className="bak">

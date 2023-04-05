@@ -1,7 +1,8 @@
 import "./Main.css";
 import Nav from "./Nav";
-import "./Nav.css"
-// import Front from "./Front";
+import "./Nav.css";
+import "./Mnav.css";
+import Front from "./Front";
 import About from "./About";
 import Skill from "./Skill";
 import Resume from "./Resume";
@@ -38,7 +39,7 @@ export default function Main(){
                     toggle && (
                         <div className="mobilenav">
                             <img src={niyi} alt="niyi" className="mobilelogo" />
-                            <h1 className="mobilename">Faruq Olaniyi Gbadegesin</h1>
+                            <h1 className="mobileneme">Faruq Olaniyi Gbadegesin</h1>
                          <div className="mobilem">
                             <div className="mobileicon">
                               <a className="mobilecon" href="https://twitter.com/Gbadegesin0?t=mC-s-6q11ZboJVjaNVmLBA&s=09"><BsTwitter /></a>
@@ -55,20 +56,20 @@ export default function Main(){
                             </div>
                         </div>
                         <ul className="mobile-ul">
-                            <a href="#home"><li><AiOutlineHome/> Home</li></a>
-                            <a href="#about"><li><CgProfile/> About</li></a>
+                            <a href="#front"><li><AiOutlineHome/> Home</li></a>
+                            <a href="#about-head"><li><CgProfile/> About</li></a>
                             <a href="#skill"><li><AiOutlineProfile/> Skills</li></a>
                             <a href="#resume"><li><AiOutlineFile/> Resume</li></a>
                             <a href="#achieve"><li><AiOutlineFile/> Achievement</li></a>
                             <a href="#portfolio"><li><AiOutlineProfile/> Portfolio</li></a>
-                            <a href="#service"><li><FiSettings/> Services</li></a>
+                            <a href="#services"><li><FiSettings/> Services</li></a>
                         </ul>
-                        <p className="mobilecopyright">&copy; Copyright Portfolio Designed by: <span>Faruq Gbadegesin</span></p>
+                        <p className="mobilecopyright">&copy; Copyright Portfolio Designed by:<br/> <span className="per">Faruq Gbadegesin</span></p>
                     </div>
                     )
                 }
                 <div className="right">
-                    {/* <Front/> */}
+                    <Front/>
                     <About />
                     <Skill />
                     <Resume />

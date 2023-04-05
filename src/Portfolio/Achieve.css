@@ -21,6 +21,10 @@ one{
     font-weight:bold;
     margin-bottom: 10px;
 }
+.work-text{
+    text-align: justify;
+    font-size: 20px;
+}
 .achie{
     display: flex;
     padding: 0px 20px;
@@ -68,6 +72,5 @@ p{
     }
     .achieve-title{
         width:100%;
-        font-size:15px;
     }
 }

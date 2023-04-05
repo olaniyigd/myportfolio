@@ -13,20 +13,26 @@
     gap: 100px;
     padding: 10px 30px;
 }
+.tig{
+    width: 100%;
+    color: black;
+    font-size: 20px;
+}
 .countdown{
     background-color: white;
     width: 100%;
     text-align: center;
     margin-bottom:10px;
-    padding: 40px;
+    padding: 10px 50px;
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius:20px;
 
 }
-h6{
+.tiging{
     font-size: 25px;
+    color: black;
 }
 @media screen and (max-width:950px) {
     .count{
@@ -34,6 +40,6 @@ h6{
         gap: 30px;
     }
     .countdown{
-        width: 50%;
+        width: 100%;
     }
 }

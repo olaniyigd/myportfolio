@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-.skill{
+#skill{
     padding-top: 10px;
     padding-bottom: 20px;
 }
@@ -32,8 +32,8 @@
     height: 10px;
     margin-left: 20px;
 }
-h3{
-    font-size: 15px;
+.heading{
+    font-size: 20px;
     padding: 2px 20px;
 }
 .html{
@@ -67,7 +67,7 @@ h3{
     display:flex;
 }
 .skit{
-    font-size:13px;
+    font-size:18px;
 }
 .css{
     background-color: #030372;

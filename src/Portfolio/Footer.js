@@ -15,7 +15,7 @@ export default function Footer (){
                                 </div>
                                 <div className="detail">
                                     <p className="location">Location:</p>
-                                    <p>No 13, Omugo Crescent, Ilesanmi, Tanke, ILR</p>
+                                    <p className="locate">No 13, Omugo Crescent, Ilesanmi, Tanke, ILR</p>
                                 </div>
                             </div>
                             <div className="contact-info">
@@ -24,7 +24,7 @@ export default function Footer (){
                                 </div>
                                 <div className="detail">
                                     <p className="mail">Email:</p>
-                                    <a href="mailto:gbadegesinpharuq@yahoo.com">gbadegesinpharuq@yahoo.com</a>
+                                    <a className="mil" href="mailto:gbadegesinpharuq@yahoo.com">gbadegesinpharuq@yahoo.com</a>
                                 </div>
                             </div>
                             <div className="contact-info">
@@ -33,7 +33,7 @@ export default function Footer (){
                                 </div>
                                 <div className="detail">
                                     <p className="call">Call:</p>
-                                    <a href="tel:+2348107265575">+2348107265575</a>
+                                    <a className="nu" href="tel:+2348107265575">+2348107265575</a>
                                 </div>
                             </div>
                             <div className="contact-info">
@@ -78,7 +78,7 @@ export default function Footer (){
                                         <textarea name="" id="message" cols="30" rows="10" required></textarea>
                                     </div>
                             </div>
-                            <div className="btn">
+                            <div className="btnn">
                             <button className="butn">Submit Message</button>
                             </div>
                         </form>

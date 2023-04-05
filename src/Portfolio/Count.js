@@ -10,24 +10,24 @@ export default function Count () {
             <div className="count">
 
                     <div className="countdown">
-                        <h5>Research Done</h5>
-                        <h6>
-                            {counterOn &&  <CountUp start={0} end={598} duration={2} delay={0}/>} 
-                            +
+                        <h5 className="tig">Research Done</h5>
+                        <h6 className="tiging">
+                            {counterOn &&  <CountUp start={0} end={100} duration={2} delay={0}/>} 
+                            
                         </h6>
                     </div>
                     <div className="countdown">
-                    <h5>Happy Client</h5>
-                        <h6>
-                             {counterOn &&  <CountUp start={0} end={598} duration={2} delay={0}/>}
-                            +
+                    <h5 className="tig">Happy Client</h5>
+                        <h6 className="tiging">
+                             {counterOn && <CountUp start={0} end={100} duration={2} delay={0}/>}
+                            
                         </h6>
                     </div>
                     <div className="countdown">
-                    <h5>Website Developed</h5>
-                        <h6>
-                            {counterOn &&  <CountUp start={0} end={15} duration={2} delay={0}/>}
-                            +
+                    <h5 className="tig">Website Developed</h5>
+                        <h6 className="tiging">
+                            {counterOn && <CountUp start={0} end={15} duration={2} delay={0}/>}
+    
                         </h6>
                     </div>
             </div>

@@ -14,7 +14,7 @@ export default function Nav (){
             <div className="nav-bar">
                 <div className="nav">
                 <img src={niyi} alt="niyi" className="logo" />
-                <h1 className="name">Faruq Olaniyi Gbadegesin</h1>
+                <h1 className="neme">Faruq Olaniyi Gbadegesin</h1>
                 <div className="media">
                     <div className="icon">
                       <a className="con" href="https://twitter.com/Gbadegesin0?t=mC-s-6q11ZboJVjaNVmLBA&s=09"><BsTwitter /></a>
@@ -32,13 +32,13 @@ export default function Nav (){
                 </div>
                 </div>
                 <ul>
-                    <a href="#home"><li><AiOutlineHome/> Home</li></a>
-                    <a href="#about"><li><CgProfile/> About</li></a>
+                    <a href="#front"><li><AiOutlineHome/> Home</li></a>
+                    <a href="#about-head"><li><CgProfile/> About</li></a>
                     <a href="#skill"><li><AiOutlineProfile/> Skills</li></a>
                     <a href="#resume"><li><AiOutlineFile/> Resume</li></a>
                     <a href="#achieve"><li><AiOutlineFile/> Achievement</li></a>
                     <a href="#portfolio"><li><AiOutlineProfile/> Portfolio</li></a>
-                    <a href="#service"><li><FiSettings/> Services</li></a>
+                    <a href="#services"><li><FiSettings/> Services</li></a>
                 </ul>
                 <p className="copyright">&copy; Copyright Portfolio Designed by: <span>Faruq Gbadegesin</span></p>
             </div>

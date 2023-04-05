@@ -45,20 +45,30 @@ one{
 }
 .exp ,.edu{
     padding-left: 20px;
-    font-size: 20px;
+    font-size: 25px;
+    font-weight: 900;
     color: #030372;
 }
 h3{
     color: black;
+    font-size: 22px;
+    font-weight: 700;
 }
 h4{
     color: #030372;
+    font-size: 23px;
 }
 h5{
     color: grey;
+    font-size: 20px;
 }
-p{
+.work-text{
     text-align: justify;
+    font-size: 20px;
+}
+.tnt{
+    text-align: justify;
+    font-size: 20px;
 }
 @media screen and (max-width: 950px){
     .resum{

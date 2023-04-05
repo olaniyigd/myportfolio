@@ -21,9 +21,9 @@
     height: 120px;
     border-radius: 100%;
   }
-  .name{
+  .neme{
     color: white;
-    font-size: 20px;
+    font-size: 24px;
     padding-top: 15px;
   }
   .media{
@@ -67,7 +67,7 @@
   }
   ul li{
     color: #858080;
-    font-size: 20px;
+    font-size: 25px;
     cursor: pointer;
   }
   li:hover{
@@ -76,12 +76,13 @@
   }
   .copyright{
     color: white;
+    font-size: 23px;
     text-align: center;
     padding:40px 10px;
   }
   span{
     color: blue;
-    font-size: 20px;
+    font-size: 23px;
   }
   a{
     text-decoration: none;

@@ -7,7 +7,6 @@ import Skill from "./Skill";
 import Resume from "./Resume";
 import Achieve from "./Achieve";
 import Service from "./Service";
-// import Counter from "./Counter";
 import Footer from "./Footer";
 import { FiMenu } from "react-icons/fi";
 import niyi from "../Portfolioimage/niyi.jpeg";
@@ -21,6 +20,7 @@ import { AiOutlineProfile } from "react-icons/ai";
 import { CgProfile } from "react-icons/cg";
 import { FiSettings } from "react-icons/fi";
 import { useState } from "react";
+import Count from "./Count";
 
 export default function Main(){
 
@@ -73,6 +73,7 @@ export default function Main(){
                     <Skill />
                     <Resume />
                     <Achieve />
+                    <Count />
                     <Service />
                     <Footer />
                 </div>

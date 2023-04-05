@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.count{
+    margin: 20px 30px;
+    background-color: #070727;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    padding: 10px 30px;
+}
+.countdown{
+    background-color: white;
+    width: 100%;
+    text-align: center;
+    margin-bottom:10px;
+    padding: 40px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius:20px;
+
+}
+h6{
+    font-size: 25px;
+}
+@media screen and (max-width:950px) {
+    .count{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .countdown{
+        width: 50%;
+    }
+}

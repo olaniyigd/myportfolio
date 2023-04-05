@@ -1,0 +1,61 @@
+import "./Service.css";
+import { FaResearchgate } from "react-icons/fa";
+import { TbBrandWebflow } from "react-icons/tb";
+import { FiChevronRight } from "react-icons/fi";
+
+export default function Service () {
+    return(
+            <div className="services">
+                <h1 className="service-title">Service</h1>
+                <p className="serv-text">HERE ARE SOME OF MY EXPERTISE</p>
+                <div className="service">
+                        <div className="service-left">
+                            <h2>Language Research</h2>
+                            <FaResearchgate className="research"/>
+                            <p className="research-text">RESEARCH is the investigation of a particular topic using a variety of reliable, scholarly resources. RESEARCH is the systematic process of collecting and analyzing information to increase our understanding of the phenomenon under study. My research specialization is Language such as:</p>
+                            <div className="filed">
+                                <div className="feed">
+                                <FiChevronRight />
+                                <a href="https://en.wikipedia.org/wiki/Phonology">Phonology</a>
+                                </div>
+                                <div className="feed">
+                                <FiChevronRight />
+                                <a href="https://en.wikipedia.org/wiki/Morphology_(linguistics)">Morphology</a>
+                                </div>
+                                <div className="feed">
+                                <FiChevronRight />
+                                <a href="https://en.wikipedia.org/wiki/Syntax">Syntax</a>
+                                </div>
+                                <div className="feed">
+                                <FiChevronRight />
+                                <a href="https://en.wikipedia.org/wiki/Sociolinguistics#:~:text=Sociolinguistics%20is%20the%20descriptive%20study,and%20society's%20effect%20on%20language.">Sociolinguistics</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="service-left">
+                            <h2>Web Development</h2>
+                            <TbBrandWebflow className="web"/>
+                            <p className="research-text">Web development is the work involved in developing a website for the Internet (World Wide Web) or an intranet (a private network). Web development can range from developing a simple single static page of plain text to complex web applications, electronic businesses, and social network services.</p>
+                            <div className="filed">
+                                <div className="feed">
+                                <FiChevronRight />
+                                <a href="https://en.wikipedia.org/wiki/E-commerce">E-commerce Website</a>
+                                </div>
+                                <div className="feed">
+                                <FiChevronRight />
+                                <a href="https://en.wikipedia.org/wiki/Blog">Blog Website</a>
+                                </div>
+                                <div className="feed">
+                                <FiChevronRight />
+                                <a href="https://en.wikipedia.org/wiki/Portfolio">Portfolio Website</a>
+                                </div>
+                                <div className="feed">
+                                <FiChevronRight />
+                                <a href=".">Corporate Website</a>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+    )
+}

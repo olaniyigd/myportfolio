@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.skill{
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.skill-title{
+    color: #030372;
+    border-bottom: 5px solid #030372;
+    width: 5%;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+.skills{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+.skill-left, .skill-right{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.bak{
+    background-color: grey;
+    border-radius: 100px;
+    width: 85%;
+    height: 10px;
+    margin-left: 20px;
+}
+h3{
+    font-size: 15px;
+    padding: 2px 20px;
+}
+.html{
+    background-color: #030372;
+    border-radius: 100px;
+    height: 10px;
+    width: 98%;
+}
+.skill-html{
+    display:flex;
+}
+.skill-css{
+    display:flex;
+}
+.skill-java{
+    display:flex;
+}
+.skill-boot{
+    display:flex;
+}
+.skill-react{
+    display:flex;
+}
+.skill-canva{
+    display:flex;
+}
+.skill-com{
+    display:flex;
+}
+.skill-play{
+    display:flex;
+}
+.skit{
+    font-size:13px;
+}
+.css{
+    background-color: #030372;
+    height: 10px;
+    border-radius: 100px;
+    width: 95%;
+}
+.javascript{
+    background-color: #030372;
+    height: 10px;
+    border-radius: 100px;
+    width: 70%;
+}.bootstrap{
+    background-color: #030372;
+    height: 10px;
+    border-radius: 100px;
+    width: 55%;
+}
+.react{
+    background-color: #030372;
+    height: 10px;
+    border-radius: 100px;
+    width: 60%;
+}
+.canva{
+    background-color: #030372;
+    height: 10px;
+    border-radius: 100px;
+    width: 98%;
+}
+.com{
+    background-color: #030372;
+    height: 10px;
+    width: 90%;
+    border-radius: 100px;
+}
+.player{
+    background-color: #030372;
+    height: 10px;
+    width: 98%;
+    border-radius: 100px;
+}
+@media screen and (max-width: 950px){
+    .skills{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .skill-html{
+    display:flex;
+}
+.skill-css{
+    display:flex;
+}
+.skill-java{
+    display:flex;
+}
+.skill-boot{
+    display:flex;
+    /* justify-content:space-between; */
+    /* padding-right:60px; */
+}
+.skill-react{
+    display:flex;
+    /* justify-content:space-between; */
+    /* padding-right:60px; */
+}
+.skill-canva{
+    display:flex;
+    /* justify-content:space-between; */
+    /* padding-right:60px; */
+}
+.skill-com{
+    display:flex;
+    /* justify-content:space-between; */
+    /* padding-right:60px; */
+}
+.skill-play{
+    display:flex;
+}
+.skill-left{
+    /* width: 100%; */
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.skill-right{
+    /* width: 100%; */
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    /* padding-left:10px; */
+    /* padding-right:20px; */
+}
+}

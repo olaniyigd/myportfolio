@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.about-head{
+    width: 100%;
+}
+.about-title{
+    color: #030372;
+    border-bottom: 5px solid #030372;
+    width: 5%;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+.abot-title{
+    color: #030372;
+    width: 100%;
+    font-size:25px;
+    font-weight:bold;
+    margin-left: 20px;
+    margin-bottom: 10px;   
+}
+.about-text{
+    padding: 1px 20px;
+    text-align: justify;
+}
+.about{
+    width: 100%;
+    display: flex;
+    gap:10px;
+}
+.about-left{
+    width: 100%;
+}
+.about-right{
+    width: 100%;
+}
+
+.aboutimage{
+    width: 100%;
+    padding: 20px;
+    border-radius:5%;
+}
+.abt-text{
+    text-align: justify;
+    padding: 0px 20px;
+}
+.info{
+    width: 100%;
+    display: flex;
+    padding: 20px 20px;
+}
+.info-left, .info-right{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.one{
+    display: flex;
+    color: #666565;
+}
+.ic-text{
+    color: black;
+}
+.ic{
+    color: #030372;
+}
+
+@media screen and (max-width:950px){
+    .info{
+        flex-direction: column;
+        gap: 25px;
+    }
+    .about{
+        flex-direction: column;
+    }
+    .abot-title{
+    color: #030372;
+    width: 100%;
+    font-size:20px;
+    margin-left: 20px;
+    margin-bottom: 10px;   
+    }
+    .info-left, .info-right{
+    gap: 25px;
+}
+}

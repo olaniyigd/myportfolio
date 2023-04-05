@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .mobilenav{
+    background-color: #070727;
+    width: 60%;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    z-index: 100;
+    border-right: 2px solid grey;
+  } 
+  .mobilelogo{
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+  }
+  .mobilename{
+    text-align: center;
+    color: white;
+    font-size: 14px;
+  }
+  .mobilem{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 15px;
+  }
+  .mobilecon{
+    cursor: pointer;
+    background-color: #030311;
+    color: white;
+    text-align: center;
+    padding:5px 5px;
+  }
+  .mobilecon:hover{
+    color: blue;
+    transition: 0.9s;
+  }
+  .mobile-ul{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+    list-style: none;
+  }
+  .mobile-ul li{
+    color: #858080;
+    font-size: 15px;
+    cursor: pointer;
+  }
+  .mobile-ul li:hover{
+    color: blue;
+    transition: 0.9s;
+  }
+  .mobilecopyright{
+    background-color: #070727;
+    height: 75px;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+  }
+  span{
+    color: blue;
+    font-size: 15px;
+  }
+  a{
+    text-decoration: none;
+  }

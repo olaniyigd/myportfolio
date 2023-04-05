@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contact{
+    width: 100%;
+}
+.about-contact{
+    color: #030372;
+    border-bottom: 5px solid #030372;
+    width: 5%;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+.contacts{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-left: 20px;
+}
+.left-contact{
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    background-color: #e9e8e8;
+}
+.right-contact{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #e9e8e8;
+}
+.contact-info{
+    display: flex;
+    cursor: pointer;
+}
+.contact-info:hover .c-icon{
+    color: red;
+}
+.detail{
+    margin-top: 10px;
+}
+.contact-icon{
+    margin: 15px 10px;
+    background-color: #95cee0;
+    border-radius: 100%;
+}
+.c-icon{
+    font-size: 45px;
+    padding: 10px;
+    color: blue;
+}
+.call, .mail, .location{
+    font-size: 25px;
+    font-weight: 600;
+}
+.namail{
+    display: flex;
+    gap: 50px;
+}
+form{
+    padding: 10px 20px;
+}
+.head{
+    font-size: 15px;
+}
+.nams{
+    width: 100%;
+    padding: 20px 0px;
+}
+.mess{
+    width: 100%;
+}
+#subject{
+    width: 100%;
+    height: 25px;
+    padding: 15px;
+    outline-color: #c9c6c6;
+}
+#yourname, #mail{
+    height: 25px;
+    padding: 15px;
+    outline-color: #c9c6c6;
+}
+#message{
+    width: 100%;
+    height: 100px;
+    padding: 10px 10px;
+    outline-color: #c9c6c6;
+}
+.btn{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0px;   
+}
+.butn{
+    padding: 10px 20px;
+    background-color: #070727;
+    color: white;
+    cursor: pointer;
+    border: 2px solid #070727;
+    border-radius: 5px;
+}
+.butn:hover{
+    background-color: #121246;
+    transition: 0.9s;
+}
+a{
+    text-decoration: none;
+}
+.map{
+    width:470px;
+    height:340px;
+}
+@media screen and (max-width:950px){
+    .contacts{
+        flex-direction: column;
+        padding-left: 0;
+        padding:20px 35px;
+    }
+    .namail{
+        flex-direction: column;
+        gap: 15px;
+    }
+    .namail input{
+        width: 100%;
+    }
+    .map{
+    width:310px;
+    height:230px;
+}
+}

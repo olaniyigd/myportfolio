@@ -34,7 +34,7 @@
     font-size: 25px;
     color: black;
 }
-@media screen and (max-width:950px) {
+@media screen and (max-width:900px) {
     .count{
         flex-direction: column;
         gap: 30px;

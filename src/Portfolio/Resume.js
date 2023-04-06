@@ -11,13 +11,13 @@ export default function Resume () {
                             <h3>Web Developer.</h3>
                             <h4>Toshconsult Technologies Inc.</h4>
                             <h5>Jan 2023 - Present.</h5>
-                            <p className="work-text">Learning and Voluntarily working in the company to develop its product, for self educational purposes. It includes coding in HTML, CSS, JAVASCRIPT and REACTJS.</p>
+                            <p className="work-txt">Learning and Voluntarily working in the company to develop its product, for self educational purposes. It includes coding in HTML, CSS, JAVASCRIPT and REACTJS.</p>
                         </div>
                         <div className="work">
                             <h3>Frontend Web Developer.</h3>
                             <h4>Digprom Tech.</h4>
                             <h5>Jul 2022 - Nov 2022.</h5>
-                            <p className="work-text">Learning and Voluntarily worked in the company to develop its product, for self educational purposes. It includes coding in HTML, CSS, JAVASCRIPT and REACTJS.</p>
+                            <p className="work-txt">Learning and Voluntarily worked in the company to develop its product, for self educational purposes. It includes coding in HTML, CSS, JAVASCRIPT and REACTJS.</p>
                         </div>
                         <div className="work">
                             <h3>English Language Teacher.</h3>
@@ -94,25 +94,25 @@ export default function Resume () {
                             <h3>Web Developement.</h3>
                             <h4>Toshconsult Technologies Inc.</h4>
                             <h5>Jan 2023 - Present.</h5>
-                            <p className="work-text">Web Development.</p>
+                            <p className="work-txt">Web Development.</p>
                         </div>
                         <div className="work">
                             <h3>Frontend Web Developement.</h3>
                             <h4>Digprom Tech.</h4>
                             <h5>Jul 2022 - Nov 2022.</h5>
-                            <p className="work-text">Frontend Web Development.</p>
+                            <p className="work-txt">Frontend Web Development.</p>
                         </div>
                         <div className="work">
                             <h3>B.A Linguistics.</h3>
                             <h4>University of Ilorin.</h4>
                             <h5>Oct 2015 - Aug 2021.</h5>
-                            <p className="work-text">Linguistics.</p>
+                            <p className="work-txt">Linguistics.</p>
                         </div>
                         <div className="work">
                             <h3>Secondary School Leaving Certificate</h3>
                             <h4>Adebolu Comprehensive College, Ogbomoso, Oyo State.</h4>
                             <h5>2008 - 2014.</h5>
-                            <p className="work-text">Secondary School Leaving Certificate (Arts)</p>
+                            <p className="work-txt">Secondary School Leaving Certificate (Arts)</p>
                         </div>
                         
                     </div>

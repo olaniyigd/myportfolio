@@ -17,7 +17,7 @@
     position: absolute;
     background-color: black;
     opacity: 0.8;
-    padding:20% 30% 0% 10%;
+    padding:25% 30% 0% 10%;
 }
 .head{
     width: 100%;
@@ -30,7 +30,8 @@
 .overlay-btn{
     padding: 20px;
 }
-h1{
+.front-txt{
+    font-size: 25px;
     color: rgb(255, 255, 2);
     font-weight: bold;
 }
@@ -56,13 +57,21 @@ h1{
         color: white;
         transition: 0.9s;
 }
-@media screen and (max-width:950px) {
+@media screen and (max-width:900px) {
     .overlay{
         width: 100%;
-        padding:30% 5% 0% 5%;
+        padding:35% 5% 0% 5%;
+    }
+    .front-txt{
+        font-size: 20px;
+    }
+    .front-text{
+        font-size: 18px;
     }
     .hire{
         margin-left: 30%;
         width: 100px;
+        padding: 7px 25px;
+        font-size: 18px;
     }
 }

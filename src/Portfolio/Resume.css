@@ -16,7 +16,8 @@ one{
 .resume-title{
     color: #030372;
     border-bottom: 5px solid #030372;
-    width: 10%;
+    width: 3%;
+    font-size: 25px;
     margin-left: 20px;
     margin-bottom: 10px;
 }
@@ -45,7 +46,7 @@ one{
 }
 .exp ,.edu{
     padding-left: 20px;
-    font-size: 25px;
+    font-size: 22px;
     font-weight: 900;
     color: #030372;
 }
@@ -56,23 +57,43 @@ h3{
 }
 h4{
     color: #030372;
-    font-size: 23px;
+    font-size: 22px;
 }
 h5{
     color: grey;
     font-size: 20px;
 }
-.work-text{
+.work-txt{
     text-align: justify;
+    line-height: 35px;
     font-size: 20px;
 }
 .tnt{
     text-align: justify;
     font-size: 20px;
+    line-height: 35px;
 }
-@media screen and (max-width: 950px){
+@media screen and (max-width: 900px){
     .resum{
         flex-direction: column;
         gap: 15px;
+    }
+    .resume-title{
+        font-size: 20px;
+    }
+    h3{
+        font-size: 18px;
+    }
+    h4{
+        font-size: 18px;
+    }
+    h5{
+        font-size: 18px;
+    }
+    .work-txt{
+        font-size: 15px;
+    }
+    .tnt{
+        font-size: 15px;
     }
 }

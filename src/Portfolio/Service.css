@@ -6,7 +6,7 @@
 .ola{
     color: #030372;
     padding: 10px;
-    font-size: 25px;
+    font-size: 22px;
     font-weight: 900;
 }
 #services{
@@ -16,8 +16,13 @@
 .service-title{
     color: #030372;
     border-bottom: 5px solid #030372;
-    width: 10%;
+    width: 3%;
+    font-size: 25px;
     margin-bottom: 10px;
+}
+.serv-text{
+    font-size: 22px;
+    font-weight: bold;
 }
 .service{
     display: flex;
@@ -52,23 +57,24 @@ span{
 }
 .feed{
     display:flex;
-}
-.serv-text{
-    font-weight: bold;
+    font-size: 20px;
 }
 a{
     text-decoration:none;
-    font-size: 20px;
+    color: black;
 }
 .research-text{
     text-align: justify;
     line-height: 35px;
     font-size: 20px;
 }
-@media screen and (max-width:950px){
+@media screen and (max-width:900px){
     .service{
         flex-direction: column;
         padding: 10px 0px;
+    }
+    .service-title{
+        font-size: 20px;
     }
     .research{
         display: none;
@@ -79,5 +85,14 @@ a{
     h2{
         display: block;
         text-align: center;
+    }
+    .research-text{
+        font-size: 15px;
+    }
+    .feed{
+        font-size: 15px;
+    }
+    .serv-text{
+        font-size: 18px;
     }
 }

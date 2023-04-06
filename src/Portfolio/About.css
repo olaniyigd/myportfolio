@@ -9,19 +9,20 @@
 .about-title{
     color: #030372;
     width: 100%;
+    font-size: 25px;
     padding: 10px 20px;
 }
 .abot-title{
     color: #030372;
     width: 100%;
-    font-size:27px;
+    font-size:22px;
     font-weight:800;
     margin-left: 20px;
     margin-bottom: 10px;   
 }
 .about-text{
     width: 100%;
-    font-size: 23px;
+    font-size: 20px;
     line-height: 35px;
     padding: 1px 20px;
     text-align: justify;
@@ -44,7 +45,7 @@
     border-radius:5%;
 }
 .abt-text{
-    font-size: 23px;
+    font-size: 20px;
     line-height: 35px;
     text-align: justify;
     padding: 0px 20px;
@@ -67,23 +68,40 @@
     width: 100%;
     color: black;
 }
-
+.one-txt{
+    font-size: 20px;
+}
 
 @media screen and (max-width:950px){
     .about{
         flex-direction: column;
     }
+    .about-title{
+        font-size: 20px;
+    }
     .abot-title{
     color: #030372;
     width: 100%;
-    font-size:20px;
+    font-size:18px;
     font-weight: 900;   
+    }
+    .about-text{
+        font-size: 15px;
     }
     .inf{
         flex-direction: column;
-        gap: 25px;
+        gap: 5px;
     }
     .inf-left, .inf-right{
-    gap: 25px;
-}
+    gap: 5px;
+    }
+    .abt-text{
+        font-size: 15px;
+        line-height: 35px;
+        text-align: justify;
+        padding: 0px 20px;
+    }
+    .one-txt{
+        font-size: 15px;
+    }
 }

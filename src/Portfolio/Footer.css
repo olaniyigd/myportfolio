@@ -9,7 +9,8 @@
 .about-contact{
     color: #030372;
     border-bottom: 5px solid #030372;
-    width: 5%;
+    width: 3%;
+    font-size: 25px;
     margin-left: 20px;
     margin-bottom: 10px;
 }
@@ -26,11 +27,12 @@
     gap: 10px;
     flex-direction: column;
     background-color: #e9e8e8;
+    padding: 20px;
 }
 .right-contact{
     width: 100%;
     display: flex;
-    padding: 0px 20px;
+    padding: 20px;
     flex-direction: column;
     background-color: #e9e8e8;
 }
@@ -42,7 +44,8 @@
     color: red;
 }
 .detail{
-    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
 }
 .contact-icon{
     margin: 15px 10px;
@@ -50,8 +53,8 @@
     border-radius: 100%;
 }
 .c-icon{
-    font-size: 45px;
-    padding: 10px;
+    font-size: 35px;
+    padding: 5px;
     color: blue;
 }
 .call, .mail, .location{
@@ -115,6 +118,7 @@ form{
 }
 a{
     text-decoration: none;
+    font-size: 20px;
 }
 .map{
     width:470px;
@@ -126,14 +130,17 @@ a{
 .mil, .nu{
     font-size: 20px;
 }
-@media screen and (max-width:950px){
+@media screen and (max-width:900px){
     .contacts{
         flex-direction: column;
         padding-left: 0;
         padding:20px 35px;
     }
-    .locate{
+    .about-contact{
         font-size: 20px;
+    }
+    .locat{
+        font-size: 15px;
     }
     .mil, .nu{
         font-size: 17px;
@@ -146,7 +153,11 @@ a{
         width: 100%;
     }
     .map{
-    width:310px;
+    width:268px;
     height:230px;
-}
+    }
+    a{
+        text-decoration: none;
+        font-size: 15px;
+    }
 }

@@ -38,34 +38,38 @@ export default function Main(){
                 {
                     toggle && (
                         <div className="mobilenav">
-                            <img src={niyi} alt="niyi" className="mobilelogo" />
-                            <h1 className="mobileneme">Faruq Olaniyi Gbadegesin</h1>
-                         <div className="mobilem">
-                            <div className="mobileicon">
-                              <a className="mobilecon" href="https://twitter.com/Gbadegesin0?t=mC-s-6q11ZboJVjaNVmLBA&s=09"><BsTwitter /></a>
+                                <div className="nav-top">
+                                    <img src={niyi} alt="niyi" className="mobilelogo" />
+                                    <h1 className="mobileneme">Faruq Olaniyi Gbadegesin</h1>
+                                </div>
+                            <div className="mobilem">
+                                <div className="mobileicon">
+                                    <a className="mobilecon" href="https://twitter.com/Gbadegesin0?t=mC-s-6q11ZboJVjaNVmLBA&s=09"><BsTwitter /></a>
+                                </div>
+                                <div className="mobileicon">
+                                    <a className="mobilecon" href="https://web.facebook.com/gbadegesin.pharuq.9"><ImFacebook/> </a> 
+                                </div>
+                                <div className="mobileicon">
+                                    <a className="mobilecon" href="https://www.linkedin.com/in/olaniyi-gbadegesin-63898517b/"><FaLinkedinIn/> </a>
+                                </div>
+                                <div className="mobileicon">
+                                    <a className="mobilecon" href="https://wa.me/2348107265575?text=Hi%20Qiscus"><BsWhatsapp/> </a>
+                                </div>
                             </div>
-                            <div className="mobileicon">
-                              <a className="mobilecon" href="https://web.facebook.com/gbadegesin.pharuq.9"><ImFacebook/> </a>
-                          
-                            </div>
-                            <div className="mobileicon">
-                            <a className="mobilecon" href="https://www.linkedin.com/in/olaniyi-gbadegesin-63898517b/"><FaLinkedinIn/> </a>
-                            </div>
-                            <div className="mobileicon">
-                            <a className="mobilecon" href="https://wa.me/2348107265575?text=Hi%20Qiscus"><BsWhatsapp/> </a>
+                            <ul className="mobile-ul">
+                                <a href="#front"><li><AiOutlineHome/> Home</li></a>
+                                <a href="#about-head"><li><CgProfile/> About</li></a>
+                                <a href="#skill"><li><AiOutlineProfile/> Skills</li></a>
+                                <a href="#resume"><li><AiOutlineFile/> Resume</li></a>
+                                <a href="#achieve"><li><AiOutlineFile/> Achievement</li></a>
+                                <a href="#portfolio"><li><AiOutlineProfile/> Portfolio</li></a>
+                                <a href="#services"><li><FiSettings/> Services</li></a>
+                            </ul>
+                            <div className="copy-inner">
+                            <p className="mobilecopyright">&copy; Copyright. Designed by:</p>
+                            <p className="per">Faruq Gbadegesin</p>
                             </div>
                         </div>
-                        <ul className="mobile-ul">
-                            <a href="#front"><li><AiOutlineHome/> Home</li></a>
-                            <a href="#about-head"><li><CgProfile/> About</li></a>
-                            <a href="#skill"><li><AiOutlineProfile/> Skills</li></a>
-                            <a href="#resume"><li><AiOutlineFile/> Resume</li></a>
-                            <a href="#achieve"><li><AiOutlineFile/> Achievement</li></a>
-                            <a href="#portfolio"><li><AiOutlineProfile/> Portfolio</li></a>
-                            <a href="#services"><li><FiSettings/> Services</li></a>
-                        </ul>
-                        <p className="mobilecopyright">&copy; Copyright Portfolio Designed by:<br/> <span className="per">Faruq Gbadegesin</span></p>
-                    </div>
                     )
                 }
                 <div className="right">

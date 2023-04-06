@@ -13,7 +13,6 @@ export default function Count () {
                         <h5 className="tig">Research Done</h5>
                         <h6 className="tiging">
                             {counterOn &&  <CountUp start={0} end={100} duration={2} delay={0}/>} 
-                            
                         </h6>
                     </div>
                     <div className="countdown">

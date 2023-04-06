@@ -40,7 +40,8 @@ export default function Nav (){
                     <a href="#portfolio"><li><AiOutlineProfile/> Portfolio</li></a>
                     <a href="#services"><li><FiSettings/> Services</li></a>
                 </ul>
-                <p className="copyright">&copy; Copyright Portfolio Designed by: <span>Faruq Gbadegesin</span></p>
+                <p className="copyright">&copy; Copyright. Designed by:</p>
+                <p className="copyrigt">Faruq Gbadegesin</p>
             </div>
     )
 }

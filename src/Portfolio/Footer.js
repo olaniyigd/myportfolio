@@ -15,7 +15,7 @@ export default function Footer (){
                                 </div>
                                 <div className="detail">
                                     <p className="location">Location:</p>
-                                    <p className="locate">No 13, Omugo Crescent, Ilesanmi, Tanke, ILR</p>
+                                    <a href=".">No 13, Omugo Crescent, Ilesanmi, Tanke, ILR</a>
                                 </div>
                             </div>
                             <div className="contact-info">
@@ -24,7 +24,7 @@ export default function Footer (){
                                 </div>
                                 <div className="detail">
                                     <p className="mail">Email:</p>
-                                    <a className="mil" href="mailto:gbadegesinpharuq@yahoo.com">gbadegesinpharuq@yahoo.com</a>
+                                    <a href="mailto:gbadegesinpharuq@yahoo.com">gbadegesinpharuq@yahoo.com</a>
                                 </div>
                             </div>
                             <div className="contact-info">
@@ -33,7 +33,7 @@ export default function Footer (){
                                 </div>
                                 <div className="detail">
                                     <p className="call">Call:</p>
-                                    <a className="nu" href="tel:+2348107265575">+2348107265575</a>
+                                    <a href="tel:+2348107265575">+2348107265575</a>
                                 </div>
                             </div>
                             <div className="contact-info">

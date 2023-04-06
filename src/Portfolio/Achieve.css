@@ -16,12 +16,12 @@ one{
 .achieve-title{
     color: #030372;
     width: 100%;
-    margin-left: 20px;
-    font-size:30px;
+    margin-left: 40px;
+    font-size:25px;
     font-weight:bold;
     margin-bottom: 10px;
 }
-.work-text{
+.work-txt{
     text-align: justify;
     font-size: 20px;
 }
@@ -55,6 +55,7 @@ one{
 }
 h3{
     color: black;
+    font-size: 22px;
 }
 h4{
     color: #030372;
@@ -65,12 +66,18 @@ h5{
 p{
     text-align: justify;
 }
-@media screen and (max-width: 950px){
+@media screen and (max-width: 900px){
     .achie{
         flex-direction: column;
         gap: 15px;
     }
     .achieve-title{
-        width:100%;
+        font-size: 20px;
+    }
+    h3{
+        font-size: 18px;
+    }
+    .work-txt{
+        font-size: 15px;
     }
 }

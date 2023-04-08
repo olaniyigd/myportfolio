@@ -102,16 +102,17 @@
     color: #00B87B;
     transition: 0.9s;
   }
-  .copyright{
+  .copyrih{
     color: white;
-    font-size: 20px;
+    font-size: 15px;
     text-align: center;
     padding:5px;
   }
-  .copyrigt{
+  .copyrit{
     color: #00B87B;
-    font-size: 20px;
+    font-size: 15px;
     text-align: center;
+    margin-bottom: 100px;
   }
   a{
     text-decoration: none;

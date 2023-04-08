@@ -9,20 +9,20 @@ export default function Bottom (){
             <hr></hr>
                     <div className="medi">
                     <div className="ico">
-                      <a className="twi" href="https://twitter.com/Gbadegesin0?t=mC-s-6q11ZboJVjaNVmLBA&s=09"><BsTwitter /></a>
+                      <a className="twii" href="https://twitter.com/Gbadegesin0?t=mC-s-6q11ZboJVjaNVmLBA&s=09"><BsTwitter /></a>
                     </div>
                     <div className="ico">
-                      <a className="face" href="https://web.facebook.com/gbadegesin.pharuq.9"><ImFacebook/> </a>
+                      <a className="facee" href="https://web.facebook.com/gbadegesin.pharuq.9"><ImFacebook/> </a>
                   
                     </div>
                     <div className="ico">
-                    <a className="link" href="https://www.linkedin.com/in/olaniyi-gbadegesin-63898517b/"><FaLinkedinIn/> </a>
+                    <a className="linkk" href="https://www.linkedin.com/in/olaniyi-gbadegesin-63898517b/"><FaLinkedinIn/> </a>
                     </div>
                     <div className="ico">
-                    <a className="what" href="https://wa.me/2348107265575?text=Hi%20Qiscus"><BsWhatsapp/> </a>
+                    <a className="whatt" href="https://wa.me/2348107265575?text=Hi%20Qiscus"><BsWhatsapp/> </a>
                     </div>
                 </div>
-                <p className="copyright">&copy; Copyright. Designed by:</p>
+                <p className="copyright">&copy; Copyright. Portfolio cDesigned by:</p>
                 <p className="copyrigt">Faruq Gbadegesin</p>
         </div>
     )

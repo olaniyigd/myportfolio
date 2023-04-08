@@ -16,18 +16,18 @@ export default function Nav (){
                 <img src={niyi} alt="niyi" className="logo" />
                 <h1 className="neme">Faruq Olaniyi Gbadegesin</h1>
                 <div className="media">
-                    <div className="icon">
-                      <a className="con" href="https://twitter.com/Gbadegesin0?t=mC-s-6q11ZboJVjaNVmLBA&s=09"><BsTwitter /></a>
+                    <div className="icop">
+                      <a className="twi" href="https://twitter.com/Gbadegesin0?t=mC-s-6q11ZboJVjaNVmLBA&s=09"><BsTwitter /></a>
                     </div>
-                    <div className="icon">
-                      <a className="con" href="https://web.facebook.com/gbadegesin.pharuq.9"><ImFacebook/> </a>
+                    <div className="ico">
+                      <a className="face" href="https://web.facebook.com/gbadegesin.pharuq.9"><ImFacebook/> </a>
                   
                     </div>
-                    <div className="icon">
-                    <a className="con" href="https://www.linkedin.com/in/olaniyi-gbadegesin-63898517b/"><FaLinkedinIn/> </a>
+                    <div className="ico">
+                    <a className="link" href="https://www.linkedin.com/in/olaniyi-gbadegesin-63898517b/"><FaLinkedinIn/> </a>
                     </div>
-                    <div className="icon">
-                    <a className="con" href="https://wa.me/2348107265575?text=Hi%20Qiscus"><BsWhatsapp/> </a>
+                    <div className="ico">
+                    <a className="what" href="https://wa.me/2348107265575?text=Hi%20Qiscus"><BsWhatsapp/> </a>
                     </div>
                 </div>
                 </div>

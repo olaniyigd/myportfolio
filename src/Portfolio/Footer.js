@@ -49,14 +49,14 @@ export default function Footer (){
                             </a>
                     </div>
                     <div data-aos="fade-up" className="right-contact">
-                        <form>
+                        <form action="https://formsubmit.co/pharuqgbadegesin5@gmail.com" method="POST">
                             <div className="namail">
                                 <div className="nam">
                                     <div>
                                         <p className="head">Your Name</p>
                                     </div>
                                     <div>
-                                    <input type="text" name="name" id="yourname" placeholder="Dakieo" required/>
+                                    <input type="text" name="Name" id="yourname" placeholder="Dakieo" required/>
                                     </div>
                                 </div>
                                 <div className="nam">
@@ -64,7 +64,7 @@ export default function Footer (){
                                     <p className="head">Your Mail</p>
                                     </div>
                                     <div>
-                                    <input type="text" name="name" id="mail" placeholder="example@mail.com" required/>
+                                    <input type="email" name="Email" id="mail" placeholder="example@mail.com" required/>
                                     </div>
                                 </div>                                    
                             </div>
@@ -73,7 +73,7 @@ export default function Footer (){
                                     <p className="head">Subject</p>
                                     </div>
                                     <div>
-                                    <input type="text" name="name" id="subject" required/>
+                                    <input type="text" name="Title" id="subject" required/>
                                     </div>
                             </div>
                             <div className="mess">
@@ -81,7 +81,7 @@ export default function Footer (){
                                     <p className="head">Message</p>
                                     </div>
                                     <div>
-                                        <textarea name="" id="message" cols="30" rows="10" required></textarea>
+                                        <textarea name="Message" id="message" cols="30" rows="10" required></textarea>
                                     </div>
                             </div>
                             <div className="btnn">

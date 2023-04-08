@@ -21,19 +21,46 @@
     margin-bottom: 20px;
   }
   .ico{
-    cursor: pointer;
     color: white;
     text-align: center;
   }
-  .coni{
+  .twi{
     cursor: pointer;
     background-color: rgb(48, 46, 46);
-    color: white;
+    color: #1DA1F2;
     border-radius: 10px;
     text-align: center;
-    padding:10px 10px;
+    padding:10px 25px;
     margin: 10px;
   }
+  .face{
+    cursor: pointer;
+    background-color: rgb(48, 46, 46);
+    color: #4873cf;
+    border-radius: 10px;
+    text-align: center;
+    padding:10px 25px;
+    margin: 10px;
+  }
+  .link{
+    cursor: pointer;
+    background-color: rgb(48, 46, 46);
+    color: #078dd4;
+    border-radius: 10px;
+    text-align: center;
+    padding:10px 25px;
+    margin: 10px;
+  }
+  .what{
+    cursor: pointer;
+    background-color: rgb(48, 46, 46);
+    color: #109b8b;
+    border-radius: 10px;
+    text-align: center;
+    padding:10px 25px;
+    margin: 10px;
+  }
+  
   .con:hover{
     background-color: #00B87B;
     transition: 0.9s;

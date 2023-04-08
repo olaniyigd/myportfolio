@@ -13,6 +13,48 @@
     padding-top: 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);;
   } 
+  .icop{
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  .twi{
+    cursor: pointer;
+    background-color: rgb(48, 46, 46);
+    color: #1DA1F2;
+    border-radius: 10px;
+    text-align: center;
+    padding:10px 25px;
+    margin: 10px;
+  }
+  .face{
+    cursor: pointer;
+    background-color: rgb(48, 46, 46);
+    color: #4873cf;
+    border-radius: 10px;
+    text-align: center;
+    padding:10px 25px;
+    margin: 10px;
+  }
+  .link{
+    cursor: pointer;
+    background-color: rgb(48, 46, 46);
+    color: #078dd4;
+    border-radius: 10px;
+    text-align: center;
+    padding:10px 25px;
+    margin: 10px;
+  }
+  .what{
+    cursor: pointer;
+    background-color: rgb(48, 46, 46);
+    color: #109b8b;
+    border-radius: 10px;
+    text-align: center;
+    padding:10px 25px;
+    margin: 10px;
+  }
   .nav{
     display: flex;
     flex-direction: column;
@@ -39,24 +81,6 @@
     color: white;
     font-size: 15px;
     padding: 10px;
-  }
-  .icon{
-    cursor: pointer;
-    color: white;
-    text-align: center;
-  }
-  .con{
-    cursor: pointer;
-    background-color: rgb(48, 46, 46);
-    color: white;
-    border-radius: 10px;
-    text-align: center;
-    padding:5px 5px;
-    margin: 5px;
-  }
-  .con:hover{
-    background-color: #00B87B;
-    transition: 0.9s;
   }
   ul{
     display: flex;

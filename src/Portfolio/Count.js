@@ -15,21 +15,21 @@ export default function Count () {
             <ScrollTrigger onEnter={()=> setCounterOn(true)} onExit={()=>setCounterOn(false)}>
             <div id="count">
 
-                <div className="count">
-                <div data-aos="fade-up" className="countdown">
+                <div data-aos="fade-up" className="count">
+                <div className="countdown">
                         <h5 className="tig">Project Completed</h5>
                         <h6 className="tiging">
                             {counterOn &&  <CountUp start={0} end={188} duration={2} delay={0}/>} 
                         </h6>
                     </div>
-                    <div data-aos="fade-up" className="countdown">
+                    <div className="countdown">
                     <h5 className="tig">Happy Client</h5>
                         <h6 className="tiging">
                              {counterOn && <CountUp start={0} end={203} duration={2} delay={0}/>}
                             
                         </h6>
                     </div>
-                    <div data-aos="fade-up" className="countdown">
+                    <div className="countdown">
                     <h5 className="tig">Website Developed</h5>
                         <h6 className="tiging">
                             {counterOn && <CountUp start={0} end={15} duration={2} delay={0}/>}

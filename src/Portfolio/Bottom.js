@@ -9,17 +9,17 @@ export default function Bottom (){
             <hr></hr>
                     <div className="medi">
                     <div className="ico">
-                      <a className="coni" href="https://twitter.com/Gbadegesin0?t=mC-s-6q11ZboJVjaNVmLBA&s=09"><BsTwitter /></a>
+                      <a className="twi" href="https://twitter.com/Gbadegesin0?t=mC-s-6q11ZboJVjaNVmLBA&s=09"><BsTwitter /></a>
                     </div>
                     <div className="ico">
-                      <a className="coni" href="https://web.facebook.com/gbadegesin.pharuq.9"><ImFacebook/> </a>
+                      <a className="face" href="https://web.facebook.com/gbadegesin.pharuq.9"><ImFacebook/> </a>
                   
                     </div>
                     <div className="ico">
-                    <a className="coni" href="https://www.linkedin.com/in/olaniyi-gbadegesin-63898517b/"><FaLinkedinIn/> </a>
+                    <a className="link" href="https://www.linkedin.com/in/olaniyi-gbadegesin-63898517b/"><FaLinkedinIn/> </a>
                     </div>
                     <div className="ico">
-                    <a className="coni" href="https://wa.me/2348107265575?text=Hi%20Qiscus"><BsWhatsapp/> </a>
+                    <a className="what" href="https://wa.me/2348107265575?text=Hi%20Qiscus"><BsWhatsapp/> </a>
                     </div>
                 </div>
                 <p className="copyright">&copy; Copyright. Designed by:</p>

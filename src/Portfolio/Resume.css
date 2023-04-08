@@ -21,7 +21,7 @@ one{
     color: #00B87B;
     border-bottom: 5px solid #00B87B;
     width: 3%;
-    font-size: 25px;
+    font-size: 20px;
     margin-left: 20px;
     margin-bottom: 10px;
 }
@@ -50,38 +50,38 @@ one{
 }
 .expo{
     padding-left: 20px;
-    font-size: 22px;
+    font-size: 18px;
     font-weight: 900;
     color: #00B87B;
 }
 .educ{
     padding-left: 20px;
-    font-size: 22px;
+    font-size: 18px;
     font-weight: 900;
     color: #00B87B;
 }
 .lio{
     color: white;
-    font-size: 22px;
+    font-size: 18px;
     font-weight: 700;
 }
 .mio{
     color: white;
-    font-size: 22px;
+    font-size: 18px;
 }
 h5{
     color: grey;
-    font-size: 20px;
+    font-size: 16px;
 }
 .wok-txt{
     text-align: justify;
     line-height: 35px;
-    font-size: 20px;
+    font-size: 15px;
     color: white;
 }
 .tnt{
     text-align: justify;
-    font-size: 20px;
+    font-size: 15px;
     line-height: 35px;
     color: white;
 }

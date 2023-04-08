@@ -22,7 +22,7 @@ export default function Bottom (){
                     <a className="whatt" href="https://wa.me/2348107265575?text=Hi%20Qiscus"><BsWhatsapp/> </a>
                     </div>
                 </div>
-                <p className="copyright">&copy; Copyright. Portfolio cDesigned by:</p>
+                <p className="copyright">&copy; Copyright. Portfolio Designed by:</p>
                 <p className="copyrigt">Faruq Gbadegesin</p>
         </div>
     )

@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bottom{
+    padding-top: 50px;
+    background-color: #2C3E50;
+}
+.medi{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+  }
+  hr{
+    margin-bottom: 20px;
+  }
+  .ico{
+    cursor: pointer;
+    color: white;
+    text-align: center;
+  }
+  .coni{
+    cursor: pointer;
+    background-color: rgb(48, 46, 46);
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    padding:10px 10px;
+    margin: 10px;
+  }
+  .con:hover{
+    background-color: #00B87B;
+    transition: 0.9s;
+  }
+  .copyright{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding:5px;
+  }
+  .copyrigt{
+    color: #00B87B;
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 10px;
+  }
+
+  @media screen and (max-width:900px) {
+    .copyright{
+      font-size: 13px;
+    }
+    .copyrigt{
+      font-size: 13px;
+    }
+    .ico{
+      font-size: 13px;
+    }
+  }

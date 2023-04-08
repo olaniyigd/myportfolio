@@ -1,13 +1,19 @@
 import "./Service.css";
 import { FiChevronRight } from "react-icons/fi";
+import React, { useEffect } from "react";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 export default function Service () {
+    useEffect (()=>{
+        Aos.init({duration:1000});
+      }, [])
     return(
             <div id="services">
-                <h1 className="service-title">Service</h1>
-                <p className="serv-text">HERE ARE SOME OF MY EXPERTISE</p>
+                <h1 data-aos="fade-up" className="service-title">Service</h1>
+                <p data-aos="fade-up" className="serv-text">HERE ARE SOME OF MY EXPERTISE</p>
                 <div className="service">
-                        <div className="service-left">
+                        <div data-aos="fade-up" className="service-left">
                             <p className="ola">Language Research</p>
                             <p className="research-text">RESEARCH is the investigation of a particular topic using a variety of reliable, scholarly resources. RESEARCH is the systematic process of collecting and analyzing information to increase our understanding of the phenomenon under study. My research specialization is Language such as:</p>
                             <div className="filed">
@@ -29,7 +35,7 @@ export default function Service () {
                                 </div>
                             </div>
                         </div>
-                        <div className="service-left">
+                        <div data-aos="fade-up" className="service-left">
                             <p className="ola">Web Development</p>
                             <p className="research-text">Web development is the work involved in developing a website for the Internet (World Wide Web) or an intranet (a private network). Web development can range from developing a simple single static page of plain text to complex web applications, electronic businesses, and social network services.</p>
                             <div className="filed">

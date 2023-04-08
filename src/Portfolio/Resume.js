@@ -1,27 +1,33 @@
 import "./Resume.css";
 import { FiChevronRight } from "react-icons/fi";
+import React, { useEffect } from "react";
+import Aos from "aos";
+import "aos/dist/aos.css";
 export default function Resume () {
+    useEffect (()=>{
+        Aos.init({duration:1000});
+      }, [])
     return(
             <div id="resume">
-                <h1 className="resume-title">Resume</h1>
+                <h1 data-aos="fade-up"  className="resume-title">Resume</h1>
                 <div className="resum">
                     <div className="resum-left">
-                         <p className="exp">WORK EXPERIENCE</p>
-                        <div className="work">
-                            <h3>Web Developer.</h3>
-                            <h4>Toshconsult Technologies Inc.</h4>
+                         <p data-aos="fade-up"  className="expo">WORK EXPERIENCE</p>
+                        <div data-aos="fade-up"  className="work">
+                            <h3 className="lio">Web Developer.</h3>
+                            <h4 className="mio">Toshconsult Technologies Inc, Taiwo, Ilorin, Kwara State.</h4>
                             <h5>Jan 2023 - Present.</h5>
-                            <p className="work-txt">Learning and Voluntarily working in the company to develop its product, for self educational purposes. It includes coding in HTML, CSS, JAVASCRIPT and REACTJS.</p>
+                            <p className="wok-txt">Learning and Voluntarily working in the company to develop its product, for self educational purposes. It includes coding in HTML, CSS, JAVASCRIPT and REACTJS.</p>
                         </div>
-                        <div className="work">
-                            <h3>Frontend Web Developer.</h3>
-                            <h4>Digprom Tech.</h4>
+                        <div data-aos="fade-up"  className="work">
+                            <h3 className="lio">Frontend Web Developer.</h3>
+                            <h4 className="mio">Digprom Tech, Taiwo, Ilorin, Kwara State.</h4>
                             <h5>Jul 2022 - Nov 2022.</h5>
-                            <p className="work-txt">Learning and Voluntarily worked in the company to develop its product, for self educational purposes. It includes coding in HTML, CSS, JAVASCRIPT and REACTJS.</p>
+                            <p className="wok-txt">Learning and Voluntarily worked in the company to develop its product, for self educational purposes. It includes coding in HTML, CSS, JAVASCRIPT and REACTJS.</p>
                         </div>
-                        <div className="work">
-                            <h3>English Language Teacher.</h3>
-                            <h4>Michalice International College, Obantoko, Abeokuta, Ogun State.(NYSC)</h4>
+                        <div data-aos="fade-up"  className="work">
+                            <h3 className="lio">English Language Teacher.</h3>
+                            <h4 className="mio">Michalice International College, Obantoko, Abeokuta, Ogun State.(NYSC)</h4>
                             <h5>Nov 2021 - Oct 2022.</h5>
                             <div className="one">
                                 <p className="tnt"><FiChevronRight/> Teaching basic English skills including reading, writing, and speaking.</p>
@@ -36,9 +42,9 @@ export default function Resume () {
                                 <p className="tnt"><FiChevronRight/> Engaging students to ensure a lively classroom atmosphere.</p>
                             </div>
                         </div>
-                        <div className="work">
-                            <h3>Language Researcher.</h3>
-                            <h4>A.O.S Academy Ltd, Tanke, Ilorin, Kwara State.</h4>
+                        <div data-aos="fade-up"  className="work">
+                            <h3 className="lio">Language Researcher.</h3>
+                            <h4 className="mio">A.O.S Academy Ltd, Tanke, Ilorin, Kwara State.</h4>
                             <h5>Oct 2019 - Oct 2021.</h5>
                             <div className="one">
                                 <p className="tnt"><FiChevronRight/> Conducting desktop research, and using books, journal articles, questionnaires and interviews to gather language data.</p>
@@ -56,9 +62,9 @@ export default function Resume () {
                                 <p className="tnt"><FiChevronRight/> Writing language research proposals and delivering presentations when required.</p>
                             </div>
                         </div>
-                        <div className="work">
-                            <h3>Migration Agent.</h3>
-                            <h4>A.O.S Immigration Agency, Tanke, Ilorin, Kwara State.</h4>
+                        <div data-aos="fade-up" className="work">
+                            <h3 className="lio">Migration Agent.</h3>
+                            <h4 className="mio">A.O.S Immigration Agency, Tanke, Ilorin, Kwara State.</h4>
                             <h5>Oct 2019 - Oct 2021.</h5>
                             <div className="one">
                                 <p className="tnt"><FiChevronRight/> providing information and advice to potential migrants.</p>
@@ -70,9 +76,9 @@ export default function Resume () {
                                 <p className="tnt"><FiChevronRight/> preparing documents or forms and lodge visa applications.</p>
                             </div>
                         </div>
-                        <div className="work">
-                            <h3>IELTS & TOEFL Tutor</h3>
-                            <h4>A.O.S Academy Ltd, Tanke, Ilorin, Kwara State.</h4>
+                        <div data-aos="fade-up" className="work">
+                            <h3 className="lio">IELTS & TOEFL Tutor</h3>
+                            <h4 className="mio">A.O.S Academy Ltd, Tanke, Ilorin, Kwara State.</h4>
                             <h5>Oct 2019 - Oct 2021.</h5>
                             <div className="one">
                                 <p className="tnt"><FiChevronRight/> Conducting well-organized and structured classes.</p>
@@ -89,30 +95,30 @@ export default function Resume () {
                         </div>
                     </div>
                     <div className="resum-right">
-                        <p className="edu">EDUCATION</p>
-                        <div className="work">
-                            <h3>Web Developement.</h3>
-                            <h4>Toshconsult Technologies Inc.</h4>
+                        <p data-aos="fade-up"  className="educ">EDUCATION</p>
+                        <div data-aos="fade-up"  className="work">
+                            <h3 className="lio">Web Developement.</h3>
+                            <h4 className="mio">Toshconsult Technologies Inc, Taiwo, Ilorin, Kwara State.</h4>
                             <h5>Jan 2023 - Present.</h5>
-                            <p className="work-txt">Web Development.</p>
+                            <p className="wok-txt">Web Development.</p>
                         </div>
-                        <div className="work">
-                            <h3>Frontend Web Developement.</h3>
-                            <h4>Digprom Tech.</h4>
+                        <div data-aos="fade-up"  className="work">
+                            <h3 className="lio">Frontend Web Developement.</h3>
+                            <h4 className="mio">Digprom Tech, Taiwo, Ilorin, Kwara State.</h4>
                             <h5>Jul 2022 - Nov 2022.</h5>
-                            <p className="work-txt">Frontend Web Development.</p>
+                            <p className="wok-txt">Frontend Web Development.</p>
                         </div>
-                        <div className="work">
-                            <h3>B.A Linguistics.</h3>
-                            <h4>University of Ilorin.</h4>
+                        <div data-aos="fade-up"  className="work">
+                            <h3 className="lio">B.A Linguistics.</h3>
+                            <h4 className="mio">University of Ilorin.</h4>
                             <h5>Oct 2015 - Aug 2021.</h5>
-                            <p className="work-txt">Linguistics.</p>
+                            <p className="wok-txt">Linguistics.</p>
                         </div>
-                        <div className="work">
-                            <h3>Secondary School Leaving Certificate</h3>
-                            <h4>Adebolu Comprehensive College, Ogbomoso, Oyo State.</h4>
+                        <div data-aos="fade-up"  className="work">
+                            <h3 className="lio">Secondary School Leaving Certificate</h3>
+                            <h4 className="mio">Adebolu Comprehensive College, Ogbomoso, Oyo State.</h4>
                             <h5>2008 - 2014.</h5>
-                            <p className="work-txt">Secondary School Leaving Certificate (Arts)</p>
+                            <p className="wok-txt">Secondary School Leaving Certificate (Arts)</p>
                         </div>
                         
                     </div>

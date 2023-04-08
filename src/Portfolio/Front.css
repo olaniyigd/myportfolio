@@ -32,7 +32,7 @@
 }
 .front-txt{
     font-size: 25px;
-    color: rgb(255, 255, 2);
+    color: #00B87B;
     font-weight: bold;
 }
 .front-text{
@@ -42,18 +42,18 @@
     color: white;
 }
 .hire{
-    background-color: yellow;
+    background-color: #00B87B;
     width: 400px;
     margin-left: 10%;
-    color: black;
+    color: white;
     font-weight: bold;
     font-size: 20px;
     padding: 10px 30px;
-    border: 2px solid yellow;
+    border: 2px solid #00B87B;
     border-radius: 5px;
 }
 .hire:hover{
-        background-color: transparent;
+        background-color: #16da98;
         color: white;
         transition: 0.9s;
 }

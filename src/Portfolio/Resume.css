@@ -3,6 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+#resume{
+    width: 100%;
+    background-color: #2C3E50;
+}
 one{
     display: flex;
     color: #666565;
@@ -14,8 +18,8 @@ one{
     color: #030372;
 }
 .resume-title{
-    color: #030372;
-    border-bottom: 5px solid #030372;
+    color: #00B87B;
+    border-bottom: 5px solid #00B87B;
     width: 3%;
     font-size: 25px;
     margin-left: 20px;
@@ -23,7 +27,7 @@ one{
 }
 .resum{
     display: flex;
-    padding: 0px 20px;
+    padding-right: 20px;
     gap: 50px;
 }
 .resum-left{
@@ -44,34 +48,42 @@ one{
     padding-left: 20px;
     padding-bottom: 15px;
 }
-.exp ,.edu{
+.expo{
     padding-left: 20px;
     font-size: 22px;
     font-weight: 900;
-    color: #030372;
+    color: #00B87B;
 }
-h3{
-    color: black;
+.educ{
+    padding-left: 20px;
+    font-size: 22px;
+    font-weight: 900;
+    color: #00B87B;
+}
+.lio{
+    color: white;
     font-size: 22px;
     font-weight: 700;
 }
-h4{
-    color: #030372;
+.mio{
+    color: white;
     font-size: 22px;
 }
 h5{
     color: grey;
     font-size: 20px;
 }
-.work-txt{
+.wok-txt{
     text-align: justify;
     line-height: 35px;
     font-size: 20px;
+    color: white;
 }
 .tnt{
     text-align: justify;
     font-size: 20px;
     line-height: 35px;
+    color: white;
 }
 @media screen and (max-width: 900px){
     .resum{
@@ -81,19 +93,28 @@ h5{
     .resume-title{
         font-size: 20px;
     }
-    h3{
-        font-size: 18px;
+    .lio{
+        font-size: 15px;
     }
-    h4{
-        font-size: 18px;
+    .mio{
+        font-size: 15px;
     }
     h5{
-        font-size: 18px;
-    }
-    .work-txt{
         font-size: 15px;
+    }
+    .wok-txt{
+        font-size: 13px;
     }
     .tnt{
-        font-size: 15px;
+        font-size: 13px;
+    }
+    .expo{
+        font-size: 18px;
+    }
+    .educ{
+        font-size: 18px;
+    }
+    .tnt{
+        font-size: 13px;
     }
 }

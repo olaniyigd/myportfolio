@@ -4,25 +4,27 @@
     box-sizing: border-box;
 }
 .ola{
-    color: #030372;
+    color: #00B87B;
     padding: 10px;
     font-size: 22px;
     font-weight: 900;
 }
 #services{
     width: 100%;
+    background-color: #2C3E50;
     padding: 0px 20px;
 }
 .service-title{
-    color: #030372;
-    border-bottom: 5px solid #030372;
+    color: #00B87B;
+    border-bottom: 5px solid #00B87B;
     width: 3%;
     font-size: 25px;
     margin-bottom: 10px;
 }
 .serv-text{
-    font-size: 22px;
+    font-size: 20px;
     font-weight: bold;
+    color: white;
 }
 .service{
     display: flex;
@@ -31,17 +33,10 @@
     padding: 30px 0px;
 }
 .service-left{
-    background-color: #e9e8e8;
+    background-color: #2C3E50;
     width: 100%;
     padding:15px 20px;
-}
-@keyframes rotate {
-    0%{
-        transform: rotate(0deg);
-    }
-    100%{
-        transform: rotate(360deg);
-    }
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);;
 }
 span{
     text-align: justify;
@@ -58,15 +53,17 @@ span{
 .feed{
     display:flex;
     font-size: 20px;
+    color: white;
 }
 a{
     text-decoration:none;
-    color: black;
+    color: white;
 }
 .research-text{
     text-align: justify;
     line-height: 35px;
     font-size: 20px;
+    color: white;
 }
 @media screen and (max-width:900px){
     .service{
@@ -87,12 +84,12 @@ a{
         text-align: center;
     }
     .research-text{
-        font-size: 15px;
+        font-size: 13px;
     }
     .feed{
-        font-size: 15px;
+        font-size: 13px;
     }
     .serv-text{
-        font-size: 18px;
+        font-size: 15px;
     }
 }

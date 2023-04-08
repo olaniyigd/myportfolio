@@ -1,8 +1,14 @@
 import "./Skill.css";
+import React, { useEffect } from "react";
+import Aos from "aos";
+import "aos/dist/aos.css";
 export default function Skill (){
+    useEffect (()=>{
+        Aos.init({duration:1000});
+      }, [])
     return(
             <div id="skill">
-                <h1 className="skill-title">Skills</h1>
+                <h1 data-aos="fade-up" className="skill-title">Skills</h1>
                 <div className="skills">
                 <div className="skill-left">
                     <div className="skill-html">
@@ -10,7 +16,7 @@ export default function Skill (){
                     <p className="skit">98%</p>
                     </div>
                     <div className="bak">
-                        <div className="html">
+                        <div data-aos="fade-right" className="html">
                         </div>
                     </div>
                     <div className="skill-css">
@@ -18,7 +24,7 @@ export default function Skill (){
                     <p className="skit">95%</p>
                     </div>
                     <div className="bak">
-                        <div className="css">
+                        <div data-aos="fade-right" className="css">
                         </div>
                     </div>
                     <div className="skill-java">
@@ -26,7 +32,7 @@ export default function Skill (){
                     <p className="skit">70%</p>
                     </div>
                     <div className="bak">
-                        <div className="javascript">
+                        <div data-aos="fade-right" className="javascript">
                         </div>
                     </div>
                     <div className="skill-boot">
@@ -34,7 +40,7 @@ export default function Skill (){
                     <p className="skit">55%</p>
                     </div>
                     <div className="bak">
-                        <div className="bootstrap">
+                        <div data-aos="fade-right" className="bootstrap">
                         </div>
                     </div> 
                 </div>
@@ -44,7 +50,7 @@ export default function Skill (){
                     <p className="skit">60%</p>
                     </div>
                     <div className="bak">
-                        <div className="react">
+                        <div data-aos="fade-right" className="react">
                         </div>
                     </div>
                     <div className="skill-canva">
@@ -52,7 +58,7 @@ export default function Skill (){
                     <p className="skit">98%</p>
                     </div>
                     <div className="bak">
-                        <div className="canva">
+                        <div data-aos="fade-right" className="canva">
                         </div>
                     </div>
                     <div className="skill-com">
@@ -60,7 +66,7 @@ export default function Skill (){
                     <p className="skit">90%</p>
                     </div>
                     <div className="bak">
-                        <div className="com">
+                        <div data-aos="fade-right" className="com">
                         </div>
                     </div>
                     <div className="skill-play">
@@ -68,7 +74,7 @@ export default function Skill (){
                     <p className="skit">98%</p>
                     </div>
                     <div className="bak">
-                        <div className="player">
+                        <div data-aos="fade-right" className="player">
                         </div>
                     </div>
                 </div>

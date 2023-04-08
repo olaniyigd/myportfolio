@@ -5,10 +5,11 @@
 }
 .contact{
     width: 100%;
+    background-color: #2C3E50;
 }
 .about-contact{
-    color: #030372;
-    border-bottom: 5px solid #030372;
+    color: #00B87B;
+    border-bottom: 5px solid #00B87B;
     width: 3%;
     font-size: 25px;
     margin-left: 20px;
@@ -26,19 +27,19 @@
     display: flex;
     gap: 10px;
     flex-direction: column;
-    background-color: #e9e8e8;
-    padding: 20px;
+    background-color: #2C3E50;
 }
 .right-contact{
     width: 100%;
     display: flex;
-    padding: 20px;
     flex-direction: column;
-    background-color: #e9e8e8;
+    background-color: #2C3E50;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);;
 }
 .contact-info{
     display: flex;
     cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);;
 }
 .contact-info:hover .c-icon{
     color: red;
@@ -48,17 +49,19 @@
     flex-direction: column;
 }
 .contact-icon{
-    margin: 15px 10px;
-    background-color: #95cee0;
+    margin: 1px 20px 15px 20px;
+    background-color: white;
     border-radius: 100%;
 }
 .c-icon{
     font-size: 35px;
     padding: 5px;
-    color: blue;
+    color: black;
 }
 .call, .mail, .location{
-    font-size: 25px;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 10px;
     font-weight: 600;
 }
 .namail{
@@ -70,6 +73,7 @@ form{
 }
 .head{
     font-size: 20px;
+    color: white;
 }
 .nams{
     width: 100%;
@@ -77,6 +81,12 @@ form{
 }
 .mess{
     width: 100%;
+}
+.contct-info{
+    width: 100%;
+    height: 30vh;
+    background-size: cover;
+    background-image: url('../Portfolioimage/tanke.png');
 }
 #subject{
     width: 100%;
@@ -87,6 +97,7 @@ form{
 #yourname, #mail{
     height: 25px;
     font-size: 20px;
+    color: rgb(27, 27, 27);
     padding: 15px;
     outline-color: #c9c6c6;
 }
@@ -105,27 +116,28 @@ form{
 }
 .butn{
     padding: 15px 20px;
-    background-color: #070727;
+    background-color: #00B87B;
     color: white;
     font-size: 20px;
     cursor: pointer;
-    border: 2px solid #070727;
+    border: 2px solid #00B87B;
     border-radius: 5px;
 }
 .butn:hover{
-    background-color: #121246;
+    background-color: #16da98;
     transition: 0.9s;
 }
-a{
+.loc{
     text-decoration: none;
     font-size: 20px;
 }
 .map{
-    width:470px;
+    width:522px;
     height:340px;
 }
 .locate{
-    font-size: 22px;
+    font-size: 20px;
+    color: white;
 }
 .mil, .nu{
     font-size: 20px;
@@ -156,8 +168,17 @@ a{
     width:268px;
     height:230px;
     }
-    a{
+    .loc{
         text-decoration: none;
+        font-size: 13px;
+    }
+    .head{
+        font-size: 13px;
+    }
+    #yourname, #mail{
+        font-size: 13px;
+    }
+    .call, .mail, .location{
         font-size: 15px;
     }
 }

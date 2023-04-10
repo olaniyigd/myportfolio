@@ -37,7 +37,7 @@ export default function Nav (){
                     <a href="#skill"><li><AiOutlineProfile/> Skills</li></a>
                     <a href="#resume"><li><AiOutlineFile/> Resume</li></a>
                     <a href="#achieve"><li><AiOutlineFile/> Achievement</li></a>
-                    <a href="#portfolio"><li><AiOutlineProfile/> Portfolio</li></a>
+                    <a href="#port"><li><AiOutlineProfile/> Portfolio</li></a>
                     <a href="#services"><li><FiSettings/> Services</li></a>
                 </ul>
                 <p className="copyrih">&copy; Copyright. Portfolio Designed by:</p>

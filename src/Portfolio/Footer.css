@@ -58,6 +58,14 @@
     padding: 13px 10px 10px 10px;
     color: black;
 }
+.cicon{
+    font-size: 35px;
+    padding: 13px 10px 10px 10px;
+    color: black;
+}
+.contact-icon:hover.cicon{
+    color: red;
+}
 .call, .mail, .location{
     color: white;
     font-size: 18px;
@@ -96,7 +104,7 @@ form{
 }
 #yourname, #mail{
     height: 25px;
-    font-size: 15px;
+    font-size: 18px;
     color: rgb(27, 27, 27);
     padding: 15px;
     outline-color: #c9c6c6;
@@ -180,5 +188,15 @@ form{
     }
     .call, .mail, .location{
         font-size: 15px;
+    }
+    .c-icon{
+        font-size: 35px;
+        padding: 13px 10px 10px 10px;
+        color: black;
+    }
+    .cicon{
+        font-size: 35px;
+        padding: 13px 10px 5px 10px;
+        color: black;
     }
 }

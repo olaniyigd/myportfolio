@@ -31,9 +31,6 @@ export default function About (){
                                 <p className="one-txt"><FiChevronRight/>Birthday: Nov 30</p>
                             </div>
                             <div className="two">
-                                <p className="one-txt"><FiChevronRight/>Website: dakieo.com</p>
-                            </div>
-                            <div className="two">
                                 <p className="one-txt"><FiChevronRight/>Phone: +2348107265575</p>
                             </div>
                             <div className="two">
@@ -46,9 +43,6 @@ export default function About (){
                             </div>
                             <div className="two">
                                 <p className="one-txt"><FiChevronRight/>Experience: 3 Years</p>
-                            </div>
-                            <div className="two">
-                                <p className="one-txt"><FiChevronRight/>Phone: +2348107265575</p>
                             </div>
                             <div className="two">
                                 <p className="one-txt"><FiChevronRight/>Mail: dakieo-dev@yahoo.com</p>

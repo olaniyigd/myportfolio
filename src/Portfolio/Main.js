@@ -12,6 +12,7 @@ import Footer from "./Footer";
 import Bottom from "./Bottom";
 import Count from "./Count";
 import { FiArrowUp } from "react-icons/fi";
+import Port from "./Port";
 export default function Main(){
     return(
             <div className="main">
@@ -25,6 +26,7 @@ export default function Main(){
                     <Resume />
                     <Achieve />
                     <Count />
+                    <Port />
                     <Service />
                     <Footer />
                     <Bottom />

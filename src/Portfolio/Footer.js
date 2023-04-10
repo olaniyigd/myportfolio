@@ -17,11 +17,11 @@ export default function Footer (){
                     <div className="left-contact">
                             <div data-aos="fade-up" className="contact-info">
                                 <div className="contact-icon">
-                                    <CiLocationOn className="c-icon" />
+                                    <CiLocationOn className="cicon" />
                                 </div>
                                 <div className="detail">
                                     <p className="location">Location:</p>
-                                    <a className="loc" href=".">No 13, Omugo Crescent, Ilesanmi, Tanke, ILR</a>
+                                    <a className="loc" href="https://www.google.com/maps/place/Tanke+Rd,+240102,+Kwara/@8.4799801,4.6124533,17z/data=!4m6!3m5!1s0x10364ce643e26cc9:0xe47a663ebce70e0d!8m2!3d8.4812429!4d4.6148458!16s%2Fg%2F1tgl6c2r">No 13, Omugo Crescent, Ilesanmi, Tanke, ILR</a>
                                 </div>
                             </div>
                             <div data-aos="fade-up" className="contact-info">

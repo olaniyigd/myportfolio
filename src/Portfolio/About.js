@@ -18,10 +18,10 @@ export default function About (){
                     </div>
                     <div className="about-right">
                         <div className="abot-title">
-                        <p data-aos="fade-up" className="title">Frontend Web Developer</p>
+                        <p data-aos="fade-up" className="title">Web Developer</p>
                         <p data-aos="fade-up" className="title">&Language Researcher</p>
                         </div>
-                        <p data-aos="fade-up" className="abt-text">Frontend web developer and Language Researcher with a proven ability to adapt in both self-starting and collaborative environments while staying focused on achieving high-quality results under strict deadline.</p>
+                        <p data-aos="fade-up" className="abt-text">Web developer and Language Researcher with a proven ability to adapt in both self-starting and collaborative environments while staying focused on achieving high-quality results under strict deadline.</p>
                         <div className="inf">
                         <div data-aos="fade-right" className="inf-left">
                             <div className="two">

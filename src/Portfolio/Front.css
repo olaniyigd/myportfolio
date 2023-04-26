@@ -3,6 +3,58 @@
     padding: 0;
     box-sizing: border-box;
 }
+.wrapper{
+    display: inline-flex;
+    /* min-height: 100vh; */
+}
+.wrapper .static-txt{
+    color: white;
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+.wrapper .dynamic-texts{
+    margin-left: 0px;
+    height: 45px;
+    line-height: 32px;
+    overflow: hidden;
+}
+.dynamic-texts li{
+    color: #16da98;
+    list-style: none;
+    font-size: 30px;
+    font-weight: bold;
+    position: relative;
+    top: 0;
+    animation: slide 5s steps(5) infinite;
+}
+@keyframes slide {
+    100%{
+        top: -307px;
+    }
+}
+.dynamic-texts li span{
+    position: relative;
+}
+.dynamic-texts li span::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    /* background-color: #343F4F; */
+    background-color: black;
+    opacity: 0.8;
+    border-left: 2px solid transparent;
+    animation: typing 1s steps(10) infinite;
+}
+@keyframes typing {
+    100%{
+        left:100%;
+        margin: 0px -40px 0 40px;
+    }
+}
+
 #front{
     width: 100%;
     height: 100vh;
@@ -74,4 +126,56 @@
         padding: 7px 25px;
         font-size: 18px;
     }
+    .wrapper{
+        display: inline-flex;
+        /* min-height: 100vh; */
+    }
+    .wrapper .static-txt{
+        color: white;
+        font-size: 18px;
+        font-weight: 400;
+        margin-top: 17px;
+    }
+    .wrapper .dynamic-texts{
+        margin-left: 0px;
+        height: 45px;
+        line-height: 32px;
+        overflow: hidden;
+    }
+    .dynamic-texts li{
+        color: #16da98;
+        list-style: none;
+        font-size: 15px;
+        font-weight: bold;
+        position: relative;
+        top: 0;
+        animation: slide 5s steps(5) infinite;
+    }
+    @keyframes slide {
+        100%{
+            top: -307px;
+        }
+    }
+    .dynamic-texts li span{
+        position: relative;
+    }
+    .dynamic-texts li span::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        /* background-color: #343F4F; */
+        background-color: black;
+        opacity: 0.8;
+        border-left: 2px solid transparent;
+        animation: typing 1s steps(10) infinite;
+    }
+    @keyframes typing {
+        100%{
+            left:100%;
+            margin: 0px -40px 0 40px;
+        }
+    }
+    
 }

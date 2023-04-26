@@ -27,7 +27,7 @@ export default function Nav (){
                     <a className="link" href="https://www.linkedin.com/in/olaniyi-gbadegesin-63898517b/"><FaLinkedinIn/> </a>
                     </div>
                     <div className="ico">
-                    <a className="what" href="https://wa.me/2348107265575?text=Hi%20Qiscus"><BsWhatsapp/> </a>
+                    <a className="what" href="https://wa.me/2348107265575?text=Hi%20Dakieo"><BsWhatsapp/> </a>
                     </div>
                 </div>
                 </div>

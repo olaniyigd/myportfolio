@@ -4,10 +4,13 @@ export default function Front () {
         <div id="front">
             <div className="overlay">
                 <div className="overlay-text">
-                    <div className="head">
-                        <p className="front-txt">FRONTEND WEB DEVELOPER</p>
-                        <p className="front-txt">& LANGUAGE RESEARCHER</p>
-                    </div>
+                <div class="wrapper">
+                    <div class="static-txt">I'M  A</div>
+                    <ul class="dynamic-texts">
+                        <li><span>WEB DEVELOPER</span></li>
+                        <li><span>RESEARCHER</span></li>
+                    </ul>
+                </div>
                      <p className="front-text"> Hi, I am Gbadegesin Faruq, A dedicated, passionate and hardworking individual, Excited to bring talent and leadership to organization offering room for growth.</p>
                 </div>
                 <div className="overlay-btn">

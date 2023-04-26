@@ -19,7 +19,7 @@ export default function Bottom (){
                     <a className="linkk" href="https://www.linkedin.com/in/olaniyi-gbadegesin-63898517b/"><FaLinkedinIn/> </a>
                     </div>
                     <div className="ico">
-                    <a className="whatt" href="https://wa.me/2348107265575?text=Hi%20Qiscus"><BsWhatsapp/> </a>
+                    <a className="whatt" href="https://wa.me/2348107265575?text=Hi%20Dakieo"><BsWhatsapp/> </a>
                     </div>
                 </div>
                 <p className="copyright">&copy; Copyright. Portfolio Designed by:</p>

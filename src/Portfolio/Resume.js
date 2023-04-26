@@ -17,7 +17,7 @@ export default function Resume () {
                             <h3 className="lio">Web Developer.</h3>
                             <h4 className="mio">Toshconsult Technologies Inc, Taiwo, Ilorin, Kwara State.</h4>
                             <h5>Jan 2023 - Present.</h5>
-                            <p className="wok-txt">Learning and Voluntarily working in the company to develop its product, for self educational purposes. It includes coding in HTML, CSS, JAVASCRIPT and REACTJS.</p>
+                            <p className="wok-txt">Learning and Voluntarily working in the company to develop its product, for self educational purposes. It includes coding in HTML, CSS, JAVASCRIPT, REACTJS, and NODEJS.</p>
                         </div>
                         <div data-aos="fade-up"  className="work">
                             <h3 className="lio">Frontend Web Developer.</h3>

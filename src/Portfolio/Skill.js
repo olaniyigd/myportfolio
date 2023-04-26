@@ -27,6 +27,14 @@ export default function Skill (){
                         <div data-aos="fade-right" className="css">
                         </div>
                     </div>
+                    <div className="skill-css">
+                    <p className="heading">TAILWIND</p>
+                    <p className="skit">50%</p>
+                    </div>
+                    <div className="bak">
+                        <div data-aos="fade-right" className="tail">
+                        </div>
+                    </div>
                     <div className="skill-java">
                     <p className="heading">JAVASCRIPT</p>
                     <p className="skit">70%</p>
@@ -51,7 +59,15 @@ export default function Skill (){
                     </div>
                     <div className="bak">
                         <div data-aos="fade-right" className="react">
-                        </div>
+                    </div>
+                    </div>
+                    <div className="skill-react">
+                    <p className="heading">NODEJS</p>
+                    <p className="skit">50%</p>
+                    </div>
+                    <div className="bak">
+                        <div data-aos="fade-right" className="reactI">
+                    </div>
                     </div>
                     <div className="skill-canva">
                     <p className="heading">CANVA</p>

@@ -13,7 +13,7 @@ export default function Skill (){
                 <div className="skill-left">
                     <div className="skill-html">
                     <p className="heading">HTML</p>
-                    <p className="skit">98%</p>
+                    <p className="skit">100%</p>
                     </div>
                     <div className="bak">
                         <div data-aos="fade-right" className="html">
@@ -21,7 +21,7 @@ export default function Skill (){
                     </div>
                     <div className="skill-css">
                     <p className="heading">CSS</p>
-                    <p className="skit">95%</p>
+                    <p className="skit">100%</p>
                     </div>
                     <div className="bak">
                         <div data-aos="fade-right" className="css">
@@ -29,7 +29,7 @@ export default function Skill (){
                     </div>
                     <div className="skill-css">
                     <p className="heading">TAILWIND</p>
-                    <p className="skit">50%</p>
+                    <p className="skit">100%</p>
                     </div>
                     <div className="bak">
                         <div data-aos="fade-right" className="tail">
@@ -37,7 +37,7 @@ export default function Skill (){
                     </div>
                     <div className="skill-java">
                     <p className="heading">JAVASCRIPT</p>
-                    <p className="skit">70%</p>
+                    <p className="skit">100%</p>
                     </div>
                     <div className="bak">
                         <div data-aos="fade-right" className="javascript">
@@ -45,7 +45,7 @@ export default function Skill (){
                     </div>
                     <div className="skill-boot">
                     <p className="heading">BOOTSTRAP</p>
-                    <p className="skit">55%</p>
+                    <p className="skit">100%</p>
                     </div>
                     <div className="bak">
                         <div data-aos="fade-right" className="bootstrap">
@@ -55,7 +55,7 @@ export default function Skill (){
                 <div className="skill-right">
                     <div className="skill-react">
                     <p className="heading">REACTJS</p>
-                    <p className="skit">60%</p>
+                    <p className="skit">100%</p>
                     </div>
                     <div className="bak">
                         <div data-aos="fade-right" className="react">
@@ -63,7 +63,7 @@ export default function Skill (){
                     </div>
                     <div className="skill-react">
                     <p className="heading">NODEJS</p>
-                    <p className="skit">50%</p>
+                    <p className="skit">100%</p>
                     </div>
                     <div className="bak">
                         <div data-aos="fade-right" className="reactI">
@@ -71,7 +71,7 @@ export default function Skill (){
                     </div>
                     <div className="skill-canva">
                     <p className="heading">CANVA</p>
-                    <p className="skit">98%</p>
+                    <p className="skit">100%</p>
                     </div>
                     <div className="bak">
                         <div data-aos="fade-right" className="canva">
@@ -79,7 +79,7 @@ export default function Skill (){
                     </div>
                     <div className="skill-com">
                     <p className="heading">GOOD COMMUNICATION</p>
-                    <p className="skit">90%</p>
+                    <p className="skit">100%</p>
                     </div>
                     <div className="bak">
                         <div data-aos="fade-right" className="com">
@@ -87,7 +87,7 @@ export default function Skill (){
                     </div>
                     <div className="skill-play">
                     <p className="heading">GOOD TEAM PLAYER</p>
-                    <p className="skit">98%</p>
+                    <p className="skit">100%</p>
                     </div>
                     <div className="bak">
                         <div data-aos="fade-right" className="player">

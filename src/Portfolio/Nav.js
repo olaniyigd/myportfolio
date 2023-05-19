@@ -41,7 +41,7 @@ export default function Nav (){
                     <a href="#services"><li><FiSettings/> Services</li></a>
                 </ul>
                 <p className="copyrih">&copy; Copyright. Portfolio Designed by:</p>
-                <p className="copyrit">Faruq Gbadegesin</p>
+                <p className="copyrit">DAKIEO</p>
             </div>
     )
 }

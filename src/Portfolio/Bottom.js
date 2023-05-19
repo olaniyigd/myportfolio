@@ -23,7 +23,7 @@ export default function Bottom (){
                     </div>
                 </div>
                 <p className="copyright">&copy; Copyright. Portfolio Designed by:</p>
-                <p className="copyrigt">Faruq Gbadegesin</p>
+                <p className="copyrigt">DAKIEO</p>
         </div>
     )
 }

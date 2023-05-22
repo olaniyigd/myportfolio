@@ -16,18 +16,12 @@ export default function Resume () {
                         <div data-aos="fade-up"  className="work">
                             <h3 className="lio">Web Developer.</h3>
                             <h4 className="mio">Toshconsult Technologies Inc, Taiwo, Ilorin, Kwara State.</h4>
-                            <h5>Jan 2023 - Present.</h5>
+                            <h5>July 2022 - Present.</h5>
                             <p className="wok-txt">Learning and Voluntarily working in the company to develop its product, for self educational purposes. It includes coding in HTML, CSS, JAVASCRIPT, REACTJS, and NODEJS.</p>
                         </div>
                         <div data-aos="fade-up"  className="work">
-                            <h3 className="lio">Frontend Web Developer.</h3>
-                            <h4 className="mio">Digprom Tech, Taiwo, Ilorin, Kwara State.</h4>
-                            <h5>Jul 2022 - Nov 2022.</h5>
-                            <p className="wok-txt">Learning and Voluntarily worked in the company to develop its product, for self educational purposes. It includes coding in HTML, CSS, JAVASCRIPT and REACTJS.</p>
-                        </div>
-                        <div data-aos="fade-up"  className="work">
                             <h3 className="lio">English Language Teacher.</h3>
-                            <h4 className="mio">Michalice International College, Obantoko, Abeokuta, Ogun State.(NYSC)</h4>
+                            <h4 className="mio">Ar-roqeeb International College, Ogidi, Ilorin, Kwara State.(NYSC)</h4>
                             <h5>Nov 2021 - Oct 2022.</h5>
                             <div className="one">
                                 <p className="tnt"><FiChevronRight/> Teaching basic English skills including reading, writing, and speaking.</p>
@@ -99,15 +93,12 @@ export default function Resume () {
                         <div data-aos="fade-up"  className="work">
                             <h3 className="lio">Web Developement.</h3>
                             <h4 className="mio">Toshconsult Technologies Inc, Taiwo, Ilorin, Kwara State.</h4>
-                            <h5>Jan 2023 - Present.</h5>
-                            <p className="wok-txt">Web Development.</p>
+                            <h5>Jul 2022 - May 2023.</h5>
+                            <p className="wok-txt">Frontend Development.</p>
+                            <h5>May 2023 - Present.</h5>
+                            <p className="wok-txt">Backend Development.</p>
                         </div>
-                        <div data-aos="fade-up"  className="work">
-                            <h3 className="lio">Frontend Web Developement.</h3>
-                            <h4 className="mio">Digprom Tech, Taiwo, Ilorin, Kwara State.</h4>
-                            <h5>Jul 2022 - Nov 2022.</h5>
-                            <p className="wok-txt">Frontend Web Development.</p>
-                        </div>
+                    
                         <div data-aos="fade-up"  className="work">
                             <h3 className="lio">B.A Linguistics.</h3>
                             <h4 className="mio">University of Ilorin.</h4>

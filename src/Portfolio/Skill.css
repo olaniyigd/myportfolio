@@ -44,7 +44,7 @@
     background-color: rgb(15, 173, 15);
     border-radius: 100px;
     height: 5px;
-    width: 100%;
+    width: 98%;
 }
 .skill-html{
     display:flex;
@@ -78,54 +78,66 @@
     background-color: rgb(238, 255, 0);
     height: 5px;
     border-radius: 100px;
-    width: 100%;
+    width: 70%;
 }
 .tail{
     background-color: blue;
     height: 5px;
     border-radius: 100px;
-    width: 100%;
+    width: 55%;
+}
+.tal{
+    background-color: rgb(42, 42, 108);
+    height: 5px;
+    border-radius: 100px;
+    width: 55%;
 }
 .javascript{
     background-color: red;
     height: 5px;
     border-radius: 100px;
-    width: 100%;
+    width: 50%;
 }
 .bootstrap{
     background-color: rgb(0, 225, 255);
     height: 5px;
     border-radius: 100px;
-    width: 100%;
+    width: 55%;
 }
 .react{
     background-color: rgb(192, 45, 160);
     height: 5px;
     border-radius: 100px;
-    width: 100%;
+    width: 70%;
+}
+.ract{
+    background-color: rgb(12, 96, 42);
+    height: 5px;
+    border-radius: 100px;
+    width: 70%;
 }
 .reactI{
     background-color: #00B87B;
     height: 5px;
     border-radius: 100px;
-    width: 100%;
+    width: 50%;
 }
 .canva{
     background-color: rgb(15, 173, 15);
     height: 5px;
     border-radius: 100px;
-    width: 100%;
+    width: 70%;
 }
 .com{
     background-color: #0e0e5a;
     height: 5px;
-    width: 100%;
+    width: 70%;
     border-radius: 100px;
 }
 .player{
     background-color:rgb(238, 255, 0) ;
     height: 5px;
-    width: 100%;
+    width: 90%;
     border-radius: 100px;
 }
 @media screen and (max-width: 900px){

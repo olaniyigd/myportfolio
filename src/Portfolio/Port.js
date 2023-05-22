@@ -16,21 +16,21 @@ export default function Port () {
             <figure data-aos="fade-up" className="figure">
                 <a href="https://dakieodev-portfolio.vercel.app/">
                     <img src={portfolio} alt="portfolio" className="portfolio"/>
-                    <p className="description">My portfolio Website</p>
+                    <p className="description">My portfolio Website created with reactjs.</p>
                     <p className="description">click the image to have a view.</p>
                 </a>
             </figure>
             <figure data-aos="fade-left" className="figure">
              <a href="https://weatherapp-flame-sigma.vercel.app/">
                     <img src={weather} alt="weather" className="weather"/>
-                    <p className="description">Weather App</p>
+                    <p className="description">Weather App created with reactjs.</p>
                     <p className="description">click the image to have a view.</p>
                 </a>
             </figure>
             <figure data-aos="fade-left" className="figure">
              <a href="https://giftedbrainz.vercel.app/">
                     <img src={gifted} alt="weather" className="weather"/>
-                    <p className="description">Gifted-Brainz</p>
+                    <p className="description">Gifted-Brainz created with reactjs.</p>
                     <p className="description">click the image to have a view.</p>
                 </a>
             </figure>

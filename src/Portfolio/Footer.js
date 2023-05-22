@@ -16,8 +16,8 @@ export default function Footer (){
                 <div className="contacts">
                     <div className="left-contact">
                             <div data-aos="fade-up" className="contact-info">
-                                <div className="contact-icon">
-                                    <CiLocationOn className="cicon" />
+                                <div className="contact-con">
+                                    <CiLocationOn className="picon" />
                                 </div>
                                 <div className="detail">
                                     <p className="location">Location:</p>

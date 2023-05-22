@@ -53,12 +53,17 @@
     background-color: white;
     border-radius: 100%;
 }
+.contact-con{
+    margin: 1px 20px 32px 20px;
+    background-color: white;
+    border-radius: 100%;
+}
 .c-icon{
     font-size: 35px;
     padding: 13px 10px 10px 10px;
     color: black;
 }
-.cicon{
+.picon{
     font-size: 35px;
     padding: 13px 10px 10px 10px;
     color: black;

@@ -15,7 +15,7 @@ export default function Service () {
                 <div className="service">
                         <div data-aos="fade-up" className="service-left">
                             <p className="ola">Language Research</p>
-                            <p className="research-text">RESEARCH is the investigation of a particular topic using a variety of reliable, scholarly resources. RESEARCH is the systematic process of collecting and analyzing information to increase our understanding of the phenomenon under study. My research specialization is Language such as:</p>
+                            <p className="research-text">RESEARCH is the investigation of a particular topic using a variety of reliable, scholarly resources. Also, it is the systematic process of collecting and analyzing information to increase our understanding of the phenomenon under study. My research area of specialization is Language:</p>
                             <div className="filed">
                                 <div className="feed">
                                 <FiChevronRight />

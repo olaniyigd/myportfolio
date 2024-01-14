@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contact{
+    width: 100%;
+    background-color: black;
+}
+.about-contact{
+    color: #00B87B;
+    border-bottom: 5px solid #00B87B;
+    width: 3%;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.contacts{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 0px 20px;
+}
+.left-contact{
+    width: 100%;
+    display: flex;
+    gap: 50px;
+    flex-direction: column;
+    background-color: black;
+}
+.right-contact{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);;
+}
+.contact-info{
+    display: flex;
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);;
+}
+.contact-info:hover .c-icon{
+    color: red;
+}
+.detail{
+    display: flex;
+    flex-direction: column;
+}
+.contact-icon{
+    margin: 1px 20px 15px 20px;
+    background-color: white;
+    border-radius: 100%;
+}
+.contact-con{
+    margin: 1px 20px 32px 20px;
+    background-color: white;
+    border-radius: 100%;
+}
+.c-icon{
+    font-size: 35px;
+    padding: 13px 10px 10px 10px;
+    color: black;
+}
+.picon{
+    font-size: 35px;
+    padding: 13px 10px 10px 10px;
+    color: black;
+}
+.contact-icon:hover.cicon{
+    color: red;
+}
+.call, .mail, .location{
+    color: white;
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+.namail{
+    display: flex;
+    gap: 50px;
+}
+form{
+    padding: 10px 20px;
+}
+.head{
+    font-size: 15px;
+    color: white;
+}
+.nams{
+    width: 100%;
+    padding: 20px 0px;
+}
+.mess{
+    width: 100%;
+}
+.contct-info{
+    width: 100%;
+    height: 30vh;
+    background-size: cover;
+    background-image: url('../Portfolioimage/tanke.png');
+}
+#subject{
+    width: 100%;
+    height: 25px;
+    padding: 15px;
+    outline-color: #c9c6c6;
+}
+#yourname, #mail{
+    height: 25px;
+    font-size: 18px;
+    color: rgb(27, 27, 27);
+    padding: 15px;
+    outline-color: #c9c6c6;
+}
+#message{
+    width: 100%;
+    height: 100px;
+    padding: 10px 10px;
+    outline-color: #c9c6c6;
+}
+.btnn{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0px;   
+}
+.butn{
+    padding: 15px 20px;
+    background-color: #00B87B;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    border: 2px solid #00B87B;
+    border-radius: 5px;
+}
+.butn:hover{
+    background-color: #16da98;
+    transition: 0.9s;
+}
+.loc{
+    text-decoration: none;
+    font-size: 20px;
+}
+.map{
+    width:522px;
+    height:340px;
+}
+.locate{
+    font-size: 20px;
+    color: white;
+}
+.mil, .nu{
+    font-size: 20px;
+}
+@media screen and (max-width:900px){
+    .contacts{
+        flex-direction: column;
+        padding-left: 0;
+        padding:20px 35px;
+    }
+    .about-contact{
+        font-size: 20px;
+    }
+    .locat{
+        font-size: 15px;
+    }
+    .mil, .nu{
+        font-size: 17px;
+    }
+    .namail{
+        flex-direction: column;
+        gap: 15px;
+    }
+    .namail input{
+        width: 100%;
+    }
+    .map{
+    width:268px;
+    height:230px;
+    }
+    .loc{
+        text-decoration: none;
+        font-size: 13px;
+    }
+    .head{
+        font-size: 13px;
+    }
+    #yourname, #mail{
+        font-size: 13px;
+    }
+    .call, .mail, .location{
+        font-size: 15px;
+    }
+    .c-icon{
+        font-size: 35px;
+        padding: 13px 10px 10px 10px;
+        color: black;
+    }
+    .cicon{
+        font-size: 35px;
+        padding: 13px 10px 5px 10px;
+        color: black;
+    }
+}

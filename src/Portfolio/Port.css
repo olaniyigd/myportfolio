@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#port{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    gap: 50px;
+    margin-bottom: 60px;
+    padding: 0px 20px;
+}
+.port-title{
+    color: #32b9a0;
+    border-bottom: 5px solid #32b9a0;
+    width: 3%;
+    font-size: 20px;
+    margin-left: 20px;
+}
+.port-up{
+    display: flex;
+    gap: 20px;
+}
+.port-up2{
+    display: flex;
+    gap: 20px;
+     margin-top: 100px;
+    
+}
+.portfolio{
+    width: 100%;
+}
+figure{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);;
+}
+.weather{
+    width: 100%;
+    height: 100%;
+}
+.description{
+    text-align: justify;
+    font-size: 15px;
+    line-height: 30px;
+}
+@media screen and (max-width:900px) {
+    .port-up{
+        flex-direction: column;
+    }
+    .port-up2{
+        display: flex;
+        gap: 20px;
+        margin-top: 10px;
+        
+    }
+    .description{
+        font-size: 13px;
+    }
+}

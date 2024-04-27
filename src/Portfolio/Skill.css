@@ -1,0 +1,216 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#skill{
+    padding-top: 10px;
+    padding-bottom: 20px;
+    background-color: black;
+}
+.skill-title{
+    border-bottom: 5px solid #32b9a0;
+    width: 2%;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    color: #32b9a0;
+}
+.skills{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+.skill-left, .skill-right{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.bak{
+    background-color: grey;
+    border-radius: 100px;
+    width: 85%;
+    height: 5px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.heading{
+    font-size: 15px;
+    padding: 2px 20px;
+    color: white;
+}
+.html{
+    background-color: rgb(15, 173, 15);
+    border-radius: 100px;
+    height: 5px;
+    width: 100%;
+}
+.sass{
+    background-color: rgb(15, 173, 15);
+    border-radius: 100px;
+    height: 5px;
+    width: 50%;
+}
+.skill-html{
+    display:flex;
+}
+.skill-css{
+    display:flex;
+}
+.skill-java{
+    display:flex;
+}
+.skill-boot{
+    display:flex;
+}
+.skill-react{
+    display:flex;
+}
+.skill-canva{
+    display:flex;
+}
+.skill-com{
+    display:flex;
+}
+.skill-play{
+    display:flex;
+}
+.skit{
+    font-size:15px;
+    color: white;
+}
+.css{
+    background-color: rgb(238, 255, 0);
+    height: 5px;
+    border-radius: 100px;
+    width: 90%;
+}
+.tail{
+    background-color: blue;
+    height: 5px;
+    border-radius: 100px;
+    width: 90%;
+}
+.tal{
+    background-color: rgb(42, 42, 108);
+    height: 5px;
+    border-radius: 100px;
+    width: 70%;
+}
+.javascript{
+    background-color: red;
+    height: 5px;
+    border-radius: 100px;
+    width: 75%;
+}
+.bootstrap{
+    background-color: rgb(0, 225, 255);
+    height: 5px;
+    border-radius: 100px;
+    width: 90%;
+}
+.react{
+    background-color: rgb(192, 45, 160);
+    height: 5px;
+    border-radius: 100px;
+    width: 80%;
+}
+
+.type{
+    background-color: rgb(192, 45, 160);
+    height: 5px;
+    border-radius: 100px;
+    width: 50%;
+}
+.ract{
+    background-color: rgb(12, 96, 42);
+    height: 5px;
+    border-radius: 100px;
+    width: 70%;
+}
+.reactI{
+    background-color: #00B87B;
+    height: 5px;
+    border-radius: 100px;
+    width: 70%;
+}
+.canva{
+    background-color: rgb(15, 173, 15);
+    height: 5px;
+    border-radius: 100px;
+    width: 70%;
+}
+.com{
+    background-color: #0e0e5a;
+    height: 5px;
+    width: 70%;
+    border-radius: 100px;
+}
+.player{
+    background-color:rgb(238, 255, 0) ;
+    height: 5px;
+    width: 90%;
+    border-radius: 100px;
+}
+@media screen and (max-width: 900px){
+    .skills{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .skill-title{
+        font-size: 20px;
+    }
+    .skill-html{
+    display:flex;
+}
+.skill-css{
+    display:flex;
+}
+.skill-java{
+    display:flex;
+}
+.skill-boot{
+    display:flex;
+    /* justify-content:space-between; */
+    /* padding-right:60px; */
+}
+.skill-react{
+    display:flex;
+    /* justify-content:space-between; */
+    /* padding-right:60px; */
+}
+.skill-canva{
+    display:flex;
+    /* justify-content:space-between; */
+    /* padding-right:60px; */
+}
+.skill-com{
+    display:flex;
+    /* justify-content:space-between; */
+    /* padding-right:60px; */
+}
+.skill-play{
+    display:flex;
+}
+.skill-left{
+    /* width: 100%; */
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.skill-right{
+    /* width: 100%; */
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    /* padding-left:10px; */
+    /* padding-right:20px; */
+    }
+    .heading{
+        font-size: 13px;
+    }
+    .skit{
+        font-size: 13px;
+    }
+}

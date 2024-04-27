@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#achieve{
+    background-color: #2C3E50;
+}
+one{
+    display: flex;
+    color: #666565;
+}
+.ic-text{
+    color: black;
+}
+.ic{
+    color: #030372;
+}
+.achieve-title{
+    color: #00B87B;
+    width: 100%;
+    margin-left: 20px;
+    font-size:20px;
+    font-weight:bold;
+    margin-bottom: 10px;
+}
+.wrk-txt{
+    text-align: justify;
+    font-size: 15px;
+    color: white;
+}
+.achie{
+    display: flex;
+    padding-right: 20px;
+    gap: 50px;
+}
+.achie-left{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+.achie-right{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.work{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding-left: 20px;
+    padding-bottom: 15px;
+}
+.exp ,.edu{
+    padding-left: 20px;
+    font-size: 15px;
+    color: #030372;
+}
+h3{
+    color: white;
+    font-size: 18px;
+}
+h4{
+    color: #030372;
+}
+h5{
+    color: grey;
+}
+p{
+    text-align: justify;
+}
+@media screen and (max-width: 900px){
+    .achie{
+        flex-direction: column;
+        gap: 15px;
+    }
+    .achieve-title{
+        font-size: 20px;
+    }
+    h3{
+        font-size: 15px;
+    }
+    .wrk-txt{
+        font-size: 13px;
+    }
+}

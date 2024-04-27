@@ -1,0 +1,180 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    display: inline-flex;
+    /* min-height: 100vh; */
+}
+.wrapper .static-txt{
+    color: white;
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+.wrapper .dynamic-texts{
+    margin-left: 0px;
+    height: 45px;
+    line-height: 32px;
+    overflow: hidden;
+}
+.dynamic-texts li{
+    color: #32b9a0;
+    list-style: none;
+    font-size: 30px;
+    font-weight: bold;
+    position: relative;
+    top: 0;
+    animation: slide 5s steps(5) infinite;
+}
+@keyframes slide {
+    100%{
+        top: -307px;
+    }
+}
+.dynamic-texts li span{
+    position: relative;
+}
+.dynamic-texts li span::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    /* background-color: #343F4F; */
+    background-color: black;
+    opacity: 0.8;
+    border-left: 2px solid transparent;
+    animation: typing 1s steps(10) infinite;
+}
+@keyframes typing {
+    100%{
+        left:100%;
+        margin: 0px -40px 0 40px;
+    }
+}
+
+#front{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background-size: cover;
+    background-image: url('../Portfolioimage/niyi2.jpeg');
+    position: relative;
+}
+.overlay{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    background-color: black;
+    opacity: 0.8;
+    padding:25% 30% 0% 10%;
+}
+.head{
+    width: 100%;
+}
+.overlay-text{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.front-txt{
+    font-size: 25px;
+    color: #32b9a0;
+    font-weight: bold;
+}
+.front-text{
+    height: auto;
+    font-size: 20px;
+    line-height: 30px;
+    color: white;
+}
+.hire{
+    display: flex;
+    justify-content: start;
+    background-color: #32b9a0;
+    width: 80px;
+    color: white;
+    font-size: 20px;
+    margin-top: 10PX;
+    /* padding: 10px 30px; */
+    border: 2px solid #32b9a0;
+    border-radius: 5px;
+}
+.hire:hover{
+        background-color: #32b9a0;
+        color: white;
+        transition: 0.9s;
+}
+@media screen and (max-width:900px) {
+    .overlay{
+        width: 100%;
+        padding:35% 5% 0% 5%;
+    }
+    .front-txt{
+        font-size: 20px;
+    }
+    .front-text{
+        font-size: 14px;
+    }
+    .hire{
+        /* padding: 7px 25px; */
+        font-size: 15px;
+        padding: 8px;
+        text-align: center;
+    }
+    .wrapper{
+        display: inline-flex;
+        /* min-height: 100vh; */
+    }
+    .wrapper .static-txt{
+        color: white;
+        font-size: 18px;
+        font-weight: 400;
+        margin-top: 17px;
+    }
+    .wrapper .dynamic-texts{
+        margin-left: 0px;
+        height: 45px;
+        line-height: 32px;
+        overflow: hidden;
+    }
+    .dynamic-texts li{
+        color: #32b9a0;
+        list-style: none;
+        font-size: 13px;
+        font-weight: bold;
+        position: relative;
+        top: 0;
+        animation: slide 5s steps(5) infinite;
+    }
+    @keyframes slide {
+        100%{
+            top: -307px;
+        }
+    }
+    .dynamic-texts li span{
+        position: relative;
+    }
+    .dynamic-texts li span::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        /* background-color: #343F4F; */
+        background-color: black;
+        opacity: 0.8;
+        border-left: 2px solid transparent;
+        animation: typing 1s steps(10) infinite;
+    }
+    @keyframes typing {
+        100%{
+            left:100%;
+            margin: 0px -40px 0 40px;
+        }
+    }
+    
+}

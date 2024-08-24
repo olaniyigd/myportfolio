@@ -5,7 +5,7 @@
 }
 .bottom{
     padding-top: 50px;
-    background-color: black;
+    background-color: white;
 }
 .medi{
     width: 100%;
@@ -54,7 +54,7 @@
   .whatt{
     cursor: pointer;
     /* background-color: rgb(48, 46, 46); */
-    color: #32b9a0;
+    color: brown;
     border-radius: 10px;
     text-align: center;
     /* padding:10px 25px; */
@@ -62,17 +62,17 @@
   }
   
   .con:hover{
-    background-color: #32b9a0;
+    background-color: brown;
     transition: 0.9s;
   }
   .copyright{
-    color: white;
+    color: black;
     font-size: 15px;
     text-align: center;
     padding:5px;
   }
   .copyrigt{
-    color: #32b9a0;
+    color: brown;
     font-size: 15px;
     text-align: center;
     padding-bottom: 10px;

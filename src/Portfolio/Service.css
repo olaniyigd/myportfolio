@@ -4,19 +4,68 @@
     box-sizing: border-box;
 }
 .ola{
-    color: #00B87B;
+    color: brown;
     padding: 10px;
     font-size: 18px;
     font-weight: 900;
 }
 #services{
     width: 100%;
-    background-color: #2C3E50;
+    background-color: white;
     padding: 0px 20px;
 }
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    border: 1px solid rgb(213, 212, 212);
+    padding: 50px 20px;
+    border-radius: 20px;
+    background-color: rgb(227, 227, 227);
+    position: relative;
+}
+
+
+.contact-button {
+    display: none;
+    position: absolute;
+    bottom: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: brown;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.card:hover .contact-button,
+.card:active .contact-button,
+.card:focus .contact-button {
+    display: block;
+    opacity: 1;
+}
+
+.text{
+    color: brown;
+    font-size: 30px;
+}
+.text2{
+    font-size: 14px;
+    text-align: center;
+}
+.iop{
+    font-size: 50px;
+    color: brown;
+}
 .service-title{
-    color: #00B87B;
-    border-bottom: 5px solid #00B87B;
+    color: brown;
+    /* border-bottom: 5px solid #00B87B; */
     width: 3%;
     font-size: 20px;
     margin-bottom: 10px;
@@ -24,7 +73,7 @@
 .serv-text{
     font-size: 15px;
     font-weight: bold;
-    color: white;
+    color: black;
 }
 .service{
     display: flex;

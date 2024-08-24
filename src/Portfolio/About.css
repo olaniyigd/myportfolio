@@ -5,16 +5,16 @@
 }
 #about-head{
     width: 100%;
-    background-color: black;
+    background-color: white;
 }
 .about-title{
-    color: #32b9a0;
+    color: brown;
     width: 100%;
     font-size: 20px;
     padding: 10px 20px;
 }
 .abot-title{
-    color: #32b9a0;
+    color: brown;
     width: 100%;
     font-size:22px;
     font-weight:800;
@@ -27,7 +27,7 @@
     line-height: 35px;
     padding: 1px 20px;
     text-align: justify;
-    color: white;
+    color: black;
 }
 .about{
     width: 100%;
@@ -45,7 +45,7 @@
     width: 100%;
     padding: 20px;
     border-radius:10%;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);;
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);; */
 
 }
 .abt-text{
@@ -53,7 +53,7 @@
     line-height: 35px;
     text-align: justify;
     padding: 0px 20px;
-    color: white;
+    color: black;
 }
 .inf{
     font-size: 15px;
@@ -77,10 +77,10 @@
     display: flex;
     gap: 10px;
     font-size: 15px;
-    color: white;
+    color: black;
 }
 .one-txt .one-txt-title{
-    color: #32b9a0 ;
+    color: brown ;
 }
 
 @media screen and (max-width:950px){
@@ -90,11 +90,16 @@
     .about-title{
         font-size: 20px;
     }
+    .about-left{
+        width: 100%;
+        display: none;
+    }
     .abot-title{
-    color: #32b9a0;
+    color: brown;
     width: 100%;
     font-size:18px;
-    font-weight: 900;   
+    font-weight: 900;  
+    display: none; 
     }
     .about-text{
         font-size: 13px;
@@ -102,6 +107,7 @@
     .inf{
         flex-direction: column;
         gap: 5px;
+        margin-top: 0;
     }
     .inf-left, .inf-right{
     gap: 5px;
@@ -111,6 +117,7 @@
         line-height: 35px;
         text-align: justify;
         padding: 0px 20px;
+        display: none;
     }
     .one-txt{
         font-size: 13px;

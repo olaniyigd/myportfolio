@@ -26,8 +26,8 @@ export default function Main(){
                     <Skill />
                     {/* <Achieve />
                     <Count /> */}
+                    <Service />
                     <Port />
-                    {/* <Service /> */}
                     {/* <Footer /> */}
                     <Bottom />
                     <a className="float" href="#home">

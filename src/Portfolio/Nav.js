@@ -3,7 +3,7 @@ import niyi from "../Portfolioimage/niyi.jpeg";
 import { BsTwitter } from "react-icons/bs";
 import { BsWhatsapp } from "react-icons/bs";
 import { ImFacebook } from "react-icons/im";
-import { FaLinkedinIn } from "react-icons/fa";
+import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { AiOutlineHome } from "react-icons/ai";
 import { AiOutlineFile } from "react-icons/ai";
 import { AiOutlineProfile } from "react-icons/ai";
@@ -27,18 +27,22 @@ export default function Nav (){
                     <a className="link" href="https://www.linkedin.com/in/olaniyi-gbadegesin-63898517b/"><FaLinkedinIn/> </a>
                     </div>
                     <div className="ico">
-                    <a className="what" href="https://wa.me/2348107265575?text=Hi%20Dakieo"><BsWhatsapp/> </a>
+                    <a className="what" href="https://wa.me/2348107265575?text=Hi%20Faruq"><BsWhatsapp/> </a>
+                    </div>
+                    <div className="ico">
+                    <a className="whats" href="https://github.com/olaniyigd"><FaGithub />
+                    </a>
                     </div>
                 </div>
                 </div>
                 <ul>
                     <a href="#front"><li><AiOutlineHome/> Home</li></a>
                     <a href="#about-head"><li><CgProfile/> About</li></a>
-                    <a href="#resume"><li><AiOutlineFile/> Resume</li></a>
+                    <a href="#resume"><li><AiOutlineFile/> Work Experience</li></a>
                     <a href="#skill"><li><AiOutlineProfile/> Skills</li></a>
                     {/* <a href="#achieve"><li><AiOutlineFile/> Achievement</li></a> */}
-                    <a href="#port"><li><AiOutlineProfile/> Project</li></a>
-                    {/* <a href="#services"><li><FiSettings/> Services</li></a> */}
+                    <a href="#services"><li><FiSettings/> Services</li></a>
+                    <a href="#port"><li><AiOutlineProfile/> Portfolio</li></a>
                 </ul>
                 
                 <p className="copyrih">&copy; Copyright. Portfolio Designed by:</p>

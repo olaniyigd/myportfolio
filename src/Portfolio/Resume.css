@@ -5,9 +5,9 @@
 }
 #resume{
     width: 100%;
-    background-color: black;
+    background-color: white;
 }
-one{
+.one{
     display: flex;
     color: #666565;
 }
@@ -18,8 +18,8 @@ one{
     color: #030372;
 }
 .resume-title{
-    color: #32b9a0;
-    border-bottom: 5px solid #32b9a0;
+    color: brown;
+    border-bottom: 5px solid brown;
     width: 3%;
     font-size: 20px;
     margin-left: 20px;
@@ -52,22 +52,26 @@ one{
     padding-left: 20px;
     font-size: 18px;
     font-weight: 900;
-    color: #32b9a0;
+    color: brown;
 }
 .educ{
     padding-left: 20px;
     font-size: 18px;
     font-weight: 900;
-    color: #32b9a0;
+    color: brown;
 }
 .lio{
-    color: white;
+    color: black;
     font-size: 18px;
     font-weight: 700;
 }
 .mio{
-    color: white;
+    color: black;
     font-size: 18px;
+}
+.you{
+    color: grey;
+    font-size: 14px;
 }
 h5{
     color: grey;
@@ -77,13 +81,13 @@ h5{
     text-align: justify;
     line-height: 35px;
     font-size: 15px;
-    color: white;
+    color: black;
 }
 .tnt{
     text-align: justify;
     font-size: 15px;
     line-height: 35px;
-    color: white;
+    color: black;
 }
 @media screen and (max-width: 900px){
     .resum{

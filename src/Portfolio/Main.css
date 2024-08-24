@@ -7,7 +7,7 @@
     width: 100%;
     display: flex;
     overflow: hidden;
-    background-color: black;
+    background-color: white;
 
 }
 .right{
@@ -20,7 +20,7 @@
     right:2%;
     padding:5px 10px;
     font-size:20px;
-    color:white;
+    color: black;
     background:#070727;
     z-index:1000;
     display:none;
@@ -34,7 +34,7 @@
  height: 60px;
  bottom: 30px;
  right: 5px;
- color: #fff;
+ color: black;
  border-radius: 50px;
  text-align: center;
  font-size: 30px;
@@ -43,7 +43,7 @@
 }
 .arbtn{
     padding: 15px 10px;
-    background-color: #32b9a0;
+    background-color: brown;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);;
     color: white;
     transition: 2s;

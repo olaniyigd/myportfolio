@@ -7,7 +7,7 @@ export default function About (){
     
     return(
             <div id="about-head" className="rev">
-                <h1 className="about-title">-About Me-</h1>
+                <h1 className="about-title">ABOUT ME</h1>
                 <p className="about-text">Experienced software developer with a strong proficiency in a
 wide range of web development technologies including HTML,
 CSS, JavaScript, Bootstrap, Tailwind CSS, Node.js, React.js, and
@@ -22,9 +22,9 @@ trends.
                     </div>
                     <div className="about-right">
                         <div className="abot-title">
-                        <p className="title">Web Developer & Software Developer</p>
+                        <p className="title">Software Developer</p>
                         </div>
-                        <p className="abt-text">Web developer with a proven ability to adapt in both self-starting and collaborative environments while staying focused on achieving high-quality results under strict deadline.</p>
+                        <p className="abt-text">Software developer with a proven ability to adapt in both self-starting and collaborative environments while staying focused on achieving high-quality results under strict deadline.</p>
                         <div className="inf">
                         <div  className="inf-left">
                             <div className="two">
@@ -32,7 +32,7 @@ trends.
                             </div>
                             
                             <div className="two">
-                                <p className="one-txt"><p className="one-txt-title">Phone:</p> +234 (0) 8107265575</p>
+                                <a href="tel:0" className="one-txt"><p className="one-txt-title">Phone:</p> +234 (0) 8107265575</a>
                             </div>
                             <div className="two">
                                  <p className="one-txt"><p className="one-txt-title">City:</p> Lagos, Nigeria</p>
@@ -43,7 +43,7 @@ trends.
                                 <p className="one-txt"><p className="one-txt-title">Degree:</p> B.A</p>
                             </div>
                             <div className="two">
-                                <p className="one-txt"><p className="one-txt-title">Mail:</p> pharuqgbadegesin5@gmail.com</p>
+                                <a href="mailto:pharuqgbadegesin5@gmail.com" className="one-txt"><p className="one-txt-title">Mail:</p> pharuqgbadegesin5@gmail.com</a>
                             </div>
                             <div className="two">
                                 <p className="one-txt"><p className="one-txt-title">Freelance:</p> Available</p>
